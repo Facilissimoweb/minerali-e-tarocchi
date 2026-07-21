@@ -1,0 +1,6 @@
+{
+  "name": "Arcana Mineralia",
+  "description": "Un'esplorazione scientifica e cristallografica delle corrispondenze tra i 22 Arcani Maggiori e i minerali terrestri.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
