@@ -18,6 +18,11 @@ export interface ArcanoMineral {
   crystalShape: 'trigonal' | 'cubic' | 'monoclinic' | 'hexagonal' | 'amorphous' | 'orthorhombic' | 'octahedral' | 'complex';
   imageUrl: string;       // Immagine illustrativa di riferimento
   tags: string[];
+  chakraName: string;     // Nome e corrispondenza del Chakra
+  chakraMotivazione: string; // Motivazione del legame tra cristallo/arcano e chakra
+  chakraPuntiForza: string;  // Punti di forza associati a questo stato energetico
+  chakraPuntiDebolezza: string; // Punti di debolezza o blocco energetico
+  chakraEquilibrio: string;  // Modalità pratiche ed immaginali di riequilibrio
 }
 
 export type TabId = 'explorer' | 'draw' | 'quiz' | 'compare' | 'chat';

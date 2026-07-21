@@ -120,6 +120,14 @@ export default function Compare({ arcanaData, onSelectItem }: CompareProps) {
               <p className="text-slate-300 leading-relaxed bg-slate-900/50 p-3 rounded-lg border border-slate-850">{m1.opticsPhysical}</p>
             </div>
 
+            <div className="space-y-1.5 text-xs">
+              <span className="text-slate-500 uppercase font-bold text-[10px] block">Chakra Associato</span>
+              <p className="text-amber-200 font-medium bg-slate-900/40 p-2.5 rounded-lg border border-slate-850/80 flex items-center gap-2">
+                <span className="w-2 h-2 rounded-full bg-amber-400 animate-pulse shadow-[0_0_8px_rgba(251,191,36,0.6)]" />
+                <span>{m1.chakraName}</span>
+              </p>
+            </div>
+
             <div className="pt-2 flex justify-end">
               <button 
                 onClick={() => onSelectItem(m1)} 
@@ -174,6 +182,14 @@ export default function Compare({ arcanaData, onSelectItem }: CompareProps) {
             <div className="space-y-1.5 text-xs">
               <span className="text-slate-500 uppercase font-bold text-[10px] block">Proprietà Fisiche &amp; Ottiche</span>
               <p className="text-slate-300 leading-relaxed bg-slate-900/50 p-3 rounded-lg border border-slate-850">{m2.opticsPhysical}</p>
+            </div>
+
+            <div className="space-y-1.5 text-xs">
+              <span className="text-slate-500 uppercase font-bold text-[10px] block">Chakra Associato</span>
+              <p className="text-amber-200 font-medium bg-slate-900/40 p-2.5 rounded-lg border border-slate-850/80 flex items-center gap-2">
+                <span className="w-2 h-2 rounded-full bg-amber-400 animate-pulse shadow-[0_0_8px_rgba(251,191,36,0.6)]" />
+                <span>{m2.chakraName}</span>
+              </p>
             </div>
 
             <div className="pt-2 flex justify-end">

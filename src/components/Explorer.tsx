@@ -191,12 +191,16 @@ export default function Explorer({ arcanaData, onSelectItem }: ExplorerProps) {
                 </div>
 
                 {/* Technical data */}
-                <div className="flex items-center gap-2 text-[10px] font-mono">
+                <div className="flex flex-wrap items-center gap-1.5 text-[10px] font-mono">
                   <span className="px-2 py-0.5 rounded bg-slate-950/70 border border-slate-900 text-cyan-300 font-medium">
                     {item.formula}
                   </span>
                   <span className="px-2 py-0.5 rounded bg-slate-950/70 border border-slate-900 text-amber-400 font-medium">
                     Mohs {item.hardness}
+                  </span>
+                  <span className="px-2 py-0.5 rounded bg-amber-500/10 border border-amber-500/20 text-amber-300 font-sans font-medium flex items-center gap-1">
+                    <span className="w-1 h-1 rounded-full bg-amber-400 animate-pulse" />
+                    {item.chakraName}
                   </span>
                 </div>
 

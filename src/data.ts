@@ -20,7 +20,12 @@ export const ARCANA_DATA: ArcanoMineral[] = [
     immaginale: "Il Daimon della tabula rasa. Nella psicologia immaginale rappresenta lo stato di 'vuoto fertile' (Kenosis) e la purezza della percezione non filtrata dai costrutti dell'Io. È lo specchio dell'Anima Mundi prima della polarizzazione, il corpo di luce trasparente.",
     crystalShape: "trigonal",
     imageUrl: "https://images.unsplash.com/photo-1599707367072-cd6ada2bc375?auto=format&fit=crop&w=600&q=80",
-    tags: ["Potenziale Puro", "Kenosis", "Piezoelettrico", "Luce Bianca"]
+    tags: ["Potenziale Puro", "Kenosis", "Piezoelettrico", "Luce Bianca"],
+    chakraName: "Sahasrara - Chakra della Corona (Settimo Chakra)",
+    chakraMotivazione: "Il Quarzo Ialino è pura luce traslucida che riflette l'unità primordiale e lo spettro cromatico intero, proprio come Sahasrara accoglie l'infinito spirituale e dissolve i confini dell'ego.",
+    chakraPuntiForza: "Apertura mentale assoluta, sintonizzazione cosmica, percezione senza filtri e potenziale spirituale illimitato.",
+    chakraPuntiDebolezza: "Disconnessione dalla realtà materiale, confusione mentale, instabilità emotiva e fuga dalla concretezza (radicamento assente).",
+    chakraEquilibrio: "Meditazione silenziosa tenendo un cristallo di rocca sulla corona; visualizzare una luce bianca purissima che scende lungo la colonna fino alla terra."
   },
   {
     number: 1,
@@ -41,7 +46,12 @@ export const ARCANA_DATA: ArcanoMineral[] = [
     immaginale: "Il Daimon dell'Alchimista e del Fabbro. Simboleggia il potere immaginale di tradurre l'ispirazione invisibile in una struttura tridimensionale tangibile e definita. È l'archetipo dell'inizio dell'Opera, dove lo spirito si fa architettura d'oro.",
     crystalShape: "cubic",
     imageUrl: "https://images.unsplash.com/photo-1614362145802-53b708304959?auto=format&fit=crop&w=600&q=80",
-    tags: ["Volontà", "Struttura Cubica", "Fuoco della Terra", "Inizio Opera"]
+    tags: ["Volontà", "Struttura Cubica", "Fuoco della Terra", "Inizio Opera"],
+    chakraName: "Manipura - Chakra del Plesso Solare (Terzo Chakra)",
+    chakraMotivazione: "La Pirite, con la sua lucentezza dorata metallica e geometria ferrea, incarna l'energia del sole e del fuoco, catalizzando l'azione ordinatrice del Bagatto nel plesso solare.",
+    chakraPuntiForza: "Forza di volontà indomita, focalizzazione mentale infallibile, determinazione e chiarezza d'intenti nel plasmare la materia.",
+    chakraPuntiDebolezza: "Tendenza all'iper-controllo, egocentrismo, irritabilità, ansia da prestazione e rigidità mentale.",
+    chakraEquilibrio: "Eseguire visualizzazioni di sfere dorate radianti dal plesso; respirazione diaframmatica consapevole tenendo una pirite sull'addome."
   },
   {
     number: 2,
@@ -62,7 +72,12 @@ export const ARCANA_DATA: ArcanoMineral[] = [
     immaginale: "Il Daimon della Soglia e dell'Inconscio. Rappresenta la percezione dei mondi sottili attraverso l'immaginazione passiva e ricettiva. È l'Anima che apprende nel silenzio e nel sogno, leggendo la trama nascosta dei fenomeni naturali.",
     crystalShape: "monoclinic",
     imageUrl: "https://images.unsplash.com/photo-1551269901-5c5e14c25df7?auto=format&fit=crop&w=600&q=80",
-    tags: ["Intuizione", "Adularescenza", "Sapienza Silente", "Feldspato"]
+    tags: ["Intuizione", "Adularescenza", "Sapienza Silente", "Feldspato"],
+    chakraName: "Ajna - Chakra del Terzo Occhio (Sesto Chakra)",
+    chakraMotivazione: "L'adularescenza della Pietra di Luna, specchio di sogni e misteri celati, vibra intensamente con l'intuizione e la visione extrasensoriale di Ajna.",
+    chakraPuntiForza: "Intuizione profonda, ricettività spirituale eccezionale, percezione sottile e connessione con l'inconscio.",
+    chakraPuntiDebolezza: "Disorientamento, isolamento freddo, incapacità di agire nel mondo pratico e tendenza ad perdersi in illusioni fantasiose.",
+    chakraEquilibrio: "Posizionare una pietra di luna sulla fronte tra le sopracciglia durante un rilassamento serale; annotare i sogni sul diario dei Daimon."
   },
   {
     number: 3,
@@ -79,11 +94,16 @@ export const ARCANA_DATA: ArcanoMineral[] = [
     scientificBasis: "Berillo arricchito da micro-tracce di cromo o vanadio che assorbono la luce rossa donando un verde lussureggiante. Incarna l'energia vitale generatrice, la fecondità della natura e lo splendore della crescita.",
     opticsPhysical: "Trasparenza pleocroica, stabilità chimica assoluta, inclusioni tipiche chiamate 'giardino'.",
     materiale: "Varietà verde del berillo, un silicato di berillio e alluminio. Cristallizza nel sistema esagonale, formando prismi regolari. Durezza elevatissima (7.5-8), ma fragile per la presenza di fessurazioni naturali interne (giardini dello smeraldo).",
-    spirituale: "Rappresenta l'energia rigeneratrice dello Spirito della Natura (Viriditas). È la forza vitale divina che infonde bellezza e fertilità in tutta la creazione terrestre, la primavera interiore che fiorisce anche nel deserto.",
+    spirituale: "Rappresenta l'energy rigeneratrice dello Spirito della Natura (Viriditas). È la forza vitale divina che infonde bellezza e fertilità in tutta la creazione terrestre, la primavera interiore che fiorisce anche nel deserto.",
     immaginale: "Il Daimon della Fioritura e dell'Abbondanza. Simboleggia l'intelletto attivo immerso nell'Anima Mundi, capace di sognare forme lussureggianti e dar loro vita. È il volto verde della Grande Madre che accoglie, nutre ed esalta la vita.",
     crystalShape: "hexagonal",
     imageUrl: "https://images.unsplash.com/photo-1617038260897-41a1f14a8ca0?auto=format&fit=crop&w=600&q=80",
-    tags: ["Abbondanza", "Viriditas", "Sistema Esagonale", "Grande Madre"]
+    tags: ["Abbondanza", "Viriditas", "Sistema Esagonale", "Grande Madre"],
+    chakraName: "Anahata - Chakra del Cuore (Quarto Chakra)",
+    chakraMotivazione: "Il verde rigoglioso della Viriditas dello Smeraldo incarna la fioritura biologica ed emotiva dell'Imperatrice, ricollegandosi direttamente al centro dell'amore e dell'empatia cosmica.",
+    chakraPuntiForza: "Amore incondizionato, abbondanza generativa, rigenerazione vitale e profonda compassione per tutti i regni viventi.",
+    chakraPuntiDebolezza: "Possessività, dipendenza emotiva, paura del rifiuto e tendenza a soffocare l'altro con attenzioni eccessive.",
+    chakraEquilibrio: "Passeggiare nei boschi respirando l'energia verde delle piante tenendo uno smeraldo al petto; recitare parole di amore ed accettazione di sé."
   },
   {
     number: 4,
@@ -104,7 +124,12 @@ export const ARCANA_DATA: ArcanoMineral[] = [
     immaginale: "Il Daimon del Custode e del Costruttore. È l'archetipo dell'autorità benevola che struttura lo spazio vitale, tracciando confini sani. Simboleggia il fuoco concentrato nella materia rocciosa, la certezza razionale che calma l'ansia dell'ignoto.",
     crystalShape: "trigonal",
     imageUrl: "https://images.unsplash.com/photo-1615485290382-441e4d049cb5?auto=format&fit=crop&w=600&q=80",
-    tags: ["Radicamento", "Struttura Stabile", "Ossido di Ferro", "Legge"]
+    tags: ["Radicamento", "Struttura Stabile", "Ossido di Ferro", "Legge"],
+    chakraName: "Muladhara - Chakra della Radice (Primo Chakra)",
+    chakraMotivazione: "La compattezza rocciosa del Diaspro Rosso ricca di ferro ematico risuona con la forza strutturante dell'Imperatore, ancorando solidamente il sistema osseo ed energetico alla terra.",
+    chakraPuntiForza: "Radicamento possente, stabilità materiale, coraggio primordiale e senso di sicurezza incrollabile.",
+    chakraPuntiDebolezza: "Dogmatismo ostinato, eccessiva rigidità autoritaria, rabbia territoriale e timore viscerale del caos.",
+    chakraEquilibrio: "Praticare esercizi di grounding camminando scalzi a stretto contatto con il terreno naturale; tenere il diaspro rosso vicino al coccige durante la meditazione."
   },
   {
     number: 5,
@@ -124,8 +149,13 @@ export const ARCANA_DATA: ArcanoMineral[] = [
     spirituale: "Rappresenta l'insegnamento sacro, la connessione tra la terra e il cielo stellato (rappresentato dalle inclusioni di pirite dorata sul blu profondo). È la voce del saggio che traduce le leggi divine in precetti morali ed etici umani.",
     immaginale: "Il Daimon del Saggio e della Parola Sacra. Simboleggia l'unione rituale tra elementi diversi che trovano armonia in un disegno cosmico elevato. Traduce il profondo mistero dell'universo in una formula di comprensione comune.",
     crystalShape: "complex",
-    imageUrl: "https://images.unsplash.com/photo-1599707367072-cd6ada2bc375?auto=format&fit=crop&w=600&q=80", // Lapis fallback or quartz
-    tags: ["Insegnamento Sacro", "Cielo Stellato", "Lazurite", "Unione Opposti"]
+    imageUrl: "https://images.unsplash.com/photo-1599707367072-cd6ada2bc375?auto=format&fit=crop&w=600&q=80",
+    tags: ["Insegnamento Sacro", "Cielo Stellato", "Lazurite", "Unione Opposti"],
+    chakraName: "Vishuddha - Chakra della Gola (Quinto Chakra)",
+    chakraMotivazione: "Il blu oltremare del Lapis Lazzuli rappresenta la verità sacra e la parola sacerdotale del Papa, ponendosi come ponte comunicativo perfetto per l'insegnamento dello spirito.",
+    chakraPuntiForza: "Eloquenza ispirata, espressione etica profonda, capacità di unire concetti celesti e applicazioni pratiche.",
+    chakraPuntiDebolezza: "Dogmatismo verbale, ipocrisia, timore di esprimere la verità interiore e l'uso manipolativo del verbo.",
+    chakraEquilibrio: "Praticare il silenzio sacro alternato a canti devozionali o recitazione poetica; adagiare un lapis lazzuli sulla gola per sintonizzare il respiro."
   },
   {
     number: 6,
@@ -143,10 +173,15 @@ export const ARCANA_DATA: ArcanoMineral[] = [
     opticsPhysical: "Trasparenza traslucida, pleocroismo debole, talvolta esibisce asterismo a sei punte in luce trasmessa.",
     materiale: "Varietà macrocristallina di biossido di silicio. Il colore rosa pallido o intenso è dovuto alla presenza di micro-inclusioni aghiformi orientate di una fase silicea affine alla dumortierite. Non forma quasi mai cristalli con facce euetrali.",
     spirituale: "Rappresenta l'amore universale, l'apertura del cuore e la grazia della scelta affettiva priva di egoismo. È la forza cosmica dell'attrazione molecolare e affettiva che lega gli elementi separati per dare vita a nuove e più complesse sintesi spirituali.",
-    immaginale: "Il Daimon dell'Incontro e dell'Armonia Polare. È lo specchio dell'Anima che riconosce sé stessa nell'altro, superando la scissione originaria. Rappresenta la tenerezza immaginale che ammorbidisce le durezze difensive dell'Io.",
+    immaginale: "Il Daimon dell'Incontro e dell'Armonia Polare. È lo specchio dell'Anima che riconosce sé herself nell'altro, superando la scissione originaria. Rappresenta la tenerezza immaginale che ammorbidisce le durezze difensive dell'Io.",
     crystalShape: "trigonal",
     imageUrl: "https://images.unsplash.com/photo-1605721911519-3dfeb3be25e7?auto=format&fit=crop&w=600&q=80",
-    tags: ["Scelta del Cuore", "Risonanza", "Dumortierite", "Amore Cosmico"]
+    tags: ["Scelta del Cuore", "Risonanza", "Dumortierite", "Amore Cosmico"],
+    chakraName: "Anahata - Chakra del Cuore (Quarto Chakra)",
+    chakraMotivazione: "Il Quarzo Rosa è il cristallo emblematico della risonanza affettiva ed emotiva. Mitiga le barriere del cuore supportando l'archetipo degli Amanti nella risonanza delle scelte d'amore.",
+    chakraPuntiForza: "Empatia smisurata, capacità di perdono, pacificazione profonda e integrazione armoniosa del maschile e del femminile.",
+    chakraPuntiDebolezza: "Estrema vulnerabilità emotiva, dipendenza affettiva simbiotica, timore del rifiuto e tendenza ad idealizzare le relazioni.",
+    chakraEquilibrio: "Massaggiare l'area del petto con un quarzo rosa levigato riscaldato; visualizzare flussi di luce rosa che curano antiche ferite relazionali."
   },
   {
     number: 7,
@@ -167,7 +202,12 @@ export const ARCANA_DATA: ArcanoMineral[] = [
     immaginale: "Il Daimon del Guerriero e del Trionfo. Rappresenta il processo di incarnazione e manifestazione terrena dello spirito: la discesa della luce invisibile nel sangue rosso e nella carne. È la corazza immaginale che protegge l'Anima nel viaggio.",
     crystalShape: "trigonal",
     imageUrl: "https://images.unsplash.com/photo-1515694346937-94d85e41e6f0?auto=format&fit=crop&w=600&q=80",
-    tags: ["Forza Cinetica", "Sangue di Ferro", "Manifestazione", "Scudo Metallico"]
+    tags: ["Forza Cinetica", "Sangue di Ferro", "Manifestazione", "Scudo Metallico"],
+    chakraName: "Muladhara - Chakra della Radice (Primo Chakra)",
+    chakraMotivazione: "Il nucleo rosso sangue di ferro dell'Ematite rappresenta la pura linfa emoglobinica che spinge all'azione, allineandosi a Muladhara per muovere il Carro del trionfo terreno.",
+    chakraPuntiForza: "Focus incrollabile, grande resistenza fisica, protezione aurica densa e capacità di direzione risoluta.",
+    chakraPuntiDebolezza: "Iperattività aggressiva, impulsività rabbiosa, tendenza a forzare le tappe esaurendo le riserve energetiche.",
+    chakraEquilibrio: "Sfregare l'ematite sulle piante dei piedi per scaricare il surplus mentale; eseguire respirazioni profonde con focus sulla spina dorsale."
   },
   {
     number: 8,
@@ -187,8 +227,13 @@ export const ARCANA_DATA: ArcanoMineral[] = [
     spirituale: "Rappresenta l'equilibrio tra l'istinto animale originario e la coscienza superiore. È la trasmutazione del veleno o della debolezza (le fibre d'amianto fragili) in una pietra indistruttibile di puro silicio dorato.",
     immaginale: "Il Daimon della Trasmutazione e del Coraggio. Rappresenta la capacità immaginale di cavalcare l'istinto senza reprimerlo né farsi travolgere, trasmutandolo in una risorsa energetica flessibile e luminosa. È lo sguardo vigile della tigre dell'anima.",
     crystalShape: "trigonal",
-    imageUrl: "https://images.unsplash.com/photo-1599707367072-cd6ada2bc375?auto=format&fit=crop&w=600&q=80", // fallback
-    tags: ["Trasmutazione", "Gatteggiamento", "Autocontrollo", "Silicizzazione"]
+    imageUrl: "https://images.unsplash.com/photo-1599707367072-cd6ada2bc375?auto=format&fit=crop&w=600&q=80",
+    tags: ["Trasmutazione", "Gatteggiamento", "Autocontrollo", "Silicizzazione"],
+    chakraName: "Manipura - Chakra del Plesso Solare (Terzo Chakra)",
+    chakraMotivazione: "La silicizzazione dell'amianto velenoso in un occhio di luce cangiante dorata riflette perfettamente il coraggio della Forza nel trasmutare gli istinti nel forno alchemico del Plesso Solare.",
+    chakraPuntiForza: "Padronanza assoluta degli istinti vitali, coraggio morale saldo, magnetismo regale e carisma integrato.",
+    chakraPuntiDebolezza: "Orgoglio feroce, repressione distruttiva della propria natura selvatica e sfoghi psicosomatici nel ventre.",
+    chakraEquilibrio: "Meditare stringendo l'occhio di tigre sul plesso ed esporsi alla luce calda solare; visualizzare le pulsioni animali come fiamme che riscaldano anziché bruciare."
   },
   {
     number: 9,
@@ -206,10 +251,15 @@ export const ARCANA_DATA: ArcanoMineral[] = [
     opticsPhysical: "Assenza totale di struttura cristallina a lungo raggio, frattura concoide estremamente affilata.",
     materiale: "Roccia effusiva vetrosa di composizione acida (ricca di silice). Poiché si raffredda istantaneamente all'aria o in acqua, la sua struttura rimane amorfa. Ha durezza 5-5.5 e si rompe generando spigoli vivi di spessore molecolare.",
     spirituale: "Rappresenta l'ascesi silenziosa e la luce interiore nascosta sotto l'apparenza scura. È la discesa consapevole nelle proprie tenebre per trovare la scintilla della Verità, l'isolamento ascetico che distrugge le illusioni superficiali dell'ego.",
-    immaginale: "Il Daimon dello Specchio Oscuro e dell'Ombra. Nella psicologia immaginale rappresenta lo specchio nero in cui l'Io affronta la propria ombra primordiale. È il guardiano silenzioso che custodisce il fuoco creativo interiore nel profondo silenzio della terra.",
+    immaginale: "Il Daimon dello Specchio Oscuro e dell'Ombra. Nella psicologia immaginale rappresenta lo specchio nero in cui l'Io affronta la propria ombra primordiale. È le guardiano silenzioso che custodisce il fuoco creativo interiore nel profondo silenzio della terra.",
     crystalShape: "amorphous",
-    imageUrl: "https://images.unsplash.com/photo-1614362145802-53b708304959?auto=format&fit=crop&w=600&q=80", // obsidian-like
-    tags: ["Struttura Amorfa", "Integrità", "Specchio dell'Ombra", "Ritiro"]
+    imageUrl: "https://images.unsplash.com/photo-1614362145802-53b708304959?auto=format&fit=crop&w=600&q=80",
+    tags: ["Struttura Amorfa", "Integrità", "Specchio dell'Ombra", "Ritiro"],
+    chakraName: "Muladhara - Chakra della Radice (Primo Chakra)",
+    chakraMotivazione: "Il vetro vulcanico scuro e tagliente dell'Ossidiana radica l'energia psichica più profonda, aiutando l'Eremita a camminare impavido nel buio della grotta interiore.",
+    chakraPuntiForza: "Scudo protettivo eccezionale, integrità interiore, rimozione radicale di nodi karmici e illusioni dell'ego.",
+    chakraPuntiDebolezza: "Chiusura fredda all'esterno, tendenza al cinismo, paura del calore umano ed evitamento dei sentimenti.",
+    chakraEquilibrio: "Meditare tenendo l'ossidiana alle estremità inferiori del corpo; visualizzare le paure inconsce liquefarsi come lava ed essere assorbite dalla terra."
   },
   {
     number: 10,
@@ -229,8 +279,13 @@ export const ARCANA_DATA: ArcanoMineral[] = [
     spirituale: "Rappresenta il mutamento eterno e il fluire perpetuo delle cose. Ricorda che la forma esterna è fluida e impermanente (come l'acqua racchiusa nella pietra), mentre l'essenza spirituale continua a risplendere in infinite combinazioni di colore.",
     immaginale: "Il Daimon del Gioco e delle Metamorfosi. Simboleggia l'immaginazione fluida capace di assumere qualsiasi forma, colore e prospettiva senza irrigidirsi mai. Rappresenta la ruota dei destini psichici che gira continuamente, svelando nuove prospettive dell'essere.",
     crystalShape: "amorphous",
-    imageUrl: "https://images.unsplash.com/photo-1515694346937-94d85e41e6f0?auto=format&fit=crop&w=600&q=80", // opal fallback
-    tags: ["Opalescenza", "Mutamento Fluido", "Nanosfere", "Metamorfosi"]
+    imageUrl: "https://images.unsplash.com/photo-1515694346937-94d85e41e6f0?auto=format&fit=crop&w=600&q=80",
+    tags: ["Opalescenza", "Mutamento Fluido", "Nanosfere", "Metamorfosi"],
+    chakraName: "Svadhisthana - Chakra Sacrale (Secondo Chakra)",
+    chakraMotivazione: "L'Opale, contenente acqua vitale racchiusa in una struttura silicea iridescente, incarna il movimento incessante e il gioco dei desideri e dei mutamenti del secondo chakra.",
+    chakraPuntiForza: "Creatività liquida, spontaneità estatica, capacità di assecondare i flussi della vita senza resistenza.",
+    chakraPuntiDebolezza: "Estrema labilità emotiva, dispersione energetica e senso di sradicamento dovuto al continuo movimento del destino.",
+    chakraEquilibrio: "Prendere un bagno tiepido rilassante tenendo un opale vicino; praticare danze fluide ed espressive assecondando il proprio ritmo interiore."
   },
   {
     number: 11,
@@ -250,8 +305,13 @@ export const ARCANA_DATA: ArcanoMineral[] = [
     spirituale: "Rappresenta l'equilibrio cosmico del discernimento e della giustizia divina. È la capacità di separare con impeccabile precisione la verità dall'illusione (rappresentata dai perfetti piani di sfaldatura ottaedrica che emergono dal cubo).",
     immaginale: "Il Daimon dell'Equilibrio e della Chiarezza Mentale. Nella psicologia immaginale rappresenta il principio ordinatore che porta armonia e pace nell'anarchia emotiva, cristallizzando i pensieri vaghi in forme simmetriche e comprensibili.",
     crystalShape: "cubic",
-    imageUrl: "https://images.unsplash.com/photo-1599707367072-cd6ada2bc375?auto=format&fit=crop&w=600&q=80", // fallback
-    tags: ["Sfaldatura Ottaedrica", "Discernimento", "Fluorescenza", "Simmetria"]
+    imageUrl: "https://images.unsplash.com/photo-1599707367072-cd6ada2bc375?auto=format&fit=crop&w=600&q=80",
+    tags: ["Sfaldatura Ottaedrica", "Discernimento", "Fluorescenza", "Simmetria"],
+    chakraName: "Ajna - Chakra del Terzo Occhio (Sesto Chakra)",
+    chakraMotivazione: "La sfaldatura ottaedrica perfetta della Fluorite simboleggia il massimo discernimento della Giustizia, strutturando le nebbie mentali tramite la precisione di Ajna.",
+    chakraPuntiForza: "Logica adamantina, discernimento geometrico, stabilità focalizzata e sintonizzazione di onde cerebrali superiori.",
+    chakraPuntiDebolezza: "Eccessivo cerebralismo analitico, freddezza critica e incapacità di sintonizzarsi sull'intelligenza del cuore.",
+    chakraEquilibrio: "Meditare focalizzando la mente su un ottaedro di fluorite illuminato; posizionarla sulla fronte per ripristinare chiarezza e simmetria cognitiva."
   },
   {
     number: 12,
@@ -271,8 +331,13 @@ export const ARCANA_DATA: ArcanoMineral[] = [
     spirituale: "Rappresenta lo stato di profonda pace interiore che deriva dall'arrendersi al flusso cosmico. È la purezza dell'acqua spirituale che purifica la mente, permettendo di guardare il mondo da una prospettiva capovolta senza opporre resistenza.",
     immaginale: "Il Daimon del Flusso e della Rinuncia. Rappresenta l'accettazione consapevole dei cicli di attesa e la saggezza di chi sa che la vera forza risiede nella fluidità e nella non-azione. È la mente limpida come un mare calmo che riflette il cielo.",
     crystalShape: "hexagonal",
-    imageUrl: "https://images.unsplash.com/photo-1617038260897-41a1f14a8ca0?auto=format&fit=crop&w=600&q=80", // fallback esagonale
-    tags: ["Sospensione Attiva", "Ferro Fe²⁺", "Limpidezza Celeste", "Resa"]
+    imageUrl: "https://images.unsplash.com/photo-1617038260897-41a1f14a8ca0?auto=format&fit=crop&w=600&q=80",
+    tags: ["Sospensione Attiva", "Ferro Fe²⁺", "Limpidezza Celeste", "Resa"],
+    chakraName: "Vishuddha - Chakra della Gola (Quinto Chakra)",
+    chakraMotivazione: "La quiete liquida dell'Acquamarina distende la muscolatura laringea e rilascia il controllo oratorio, aprendo Vishuddha alla totale arresa del proprio sé egoico al Sé Superiore.",
+    chakraPuntiForza: "Arresa pacifica consapevole, rilascio dei conflitti, eloquenza dolce e sincerità emotiva.",
+    chakraPuntiDebolezza: "Passività vittimistica, tendenza al mutismo difensivo e paura di prendere posizione dinanzi alle ingiustizie.",
+    chakraEquilibrio: "Riposare con un'acquamarina sul collo ascoltando il suono naturale dello scorrere delle acque; praticare la recitazione di suoni calmi."
   },
   {
     number: 13,
@@ -292,8 +357,13 @@ export const ARCANA_DATA: ArcanoMineral[] = [
     spirituale: "Rappresenta la fine necessaria e la purificazione radicale. Come la pietra devia e scarica a terra le tensioni elettromagnetiche dannose, così questo archetipo distrugge i legami tossici e le strutture rigide, liberando l'essenza spirituale.",
     immaginale: "Il Daimon del Taglio e della Rigenerazione. Simboleggia il rigore necessario per morire a ciò che è superfluo per rinascere nello spirito. È il guardiano oscuro della soglia alchemica che transmuta l'ombra in energia protettiva.",
     crystalShape: "trigonal",
-    imageUrl: "https://images.unsplash.com/photo-1599707367072-cd6ada2bc375?auto=format&fit=crop&w=600&q=80", // fallback
-    tags: ["Piroelettrico", "Schermatura Totale", "Morte Iniziatica", "Taglio"]
+    imageUrl: "https://images.unsplash.com/photo-1599707367072-cd6ada2bc375?auto=format&fit=crop&w=600&q=80",
+    tags: ["Piroelettrico", "Schermatura Totale", "Morte Iniziatica", "Taglio"],
+    chakraName: "Muladhara - Chakra della Radice (Primo Chakra)",
+    chakraMotivazione: "La Tormalina Nera, grazie alle sue eccezionali proprietà piroelettriche e di assorbimento delle densità cariche, àncora a terra e purifica l'energia primordiale di Muladhara durante la crisi trasformativa della Morte.",
+    chakraPuntiForza: "Schermatura totale contro le tossicità, forza interiore rigenerativa e distacco alchemico netto da ciò che è morto.",
+    chakraPuntiDebolezza: "Terrore radicato della perdita biologica, ostinato attaccamento difensivo e blocco dell'istinto di sopravvivenza.",
+    chakraEquilibrio: "Tenere una tormalina nera sul coccige visualizzando flussi grigio-scuri nocivi che scaricano nel nucleo della terra fertile."
   },
   {
     number: 14,
@@ -314,7 +384,12 @@ export const ARCANA_DATA: ArcanoMineral[] = [
     immaginale: "Il Daimon del Calice Alchemico e della Misura. È l'archetipo che pacifica le tensioni interiori, insegnando all'Anima a scorrere come acqua pura tra gli estremi dell'esistenza senza mai rompersi. Rappresenta la guarigione immaginale attraverso la sintesi.",
     crystalShape: "trigonal",
     imageUrl: "https://images.unsplash.com/photo-1569336415962-a4bd9f69cd83?auto=format&fit=crop&w=600&q=80",
-    tags: ["Alchimia", "Centri di Colore", "Giusto Mezzo", "Trasmutazione"]
+    tags: ["Alchimia", "Centri di Colore", "Giusto Mezzo", "Trasmutazione"],
+    chakraName: "Ajna / Sahasrara - Sesto e Settimo Chakra (Terzo Occhio e Corona)",
+    chakraMotivazione: "La fusione ottica del rosso passivo e del blu astratto nell'Ametista viola incarna lo stato temperato e curativo di chi armonizza le passioni terrene, sintonizzando la mente verso stati di coscienza superiori.",
+    chakraPuntiForza: "Grande equilibrio psicofisico, diplomazia empatica innata e forte percezione intuitiva del sacro quotidiano.",
+    chakraPuntiDebolezza: "Disincarnazione ascetica, rifiuto dei bisogni del corpo fisico e fuga idealistica dalle fatiche materiali.",
+    chakraEquilibrio: "Sedersi in meditazione stringendo una punta di ametista orientata verso l'alto; visualizzare una fiamma violetta purificante attorno all'aura."
   },
   {
     number: 15,
@@ -323,19 +398,24 @@ export const ARCANA_DATA: ArcanoMineral[] = [
     mineralName: "Magnetite",
     subTitle: "Ossido di Ferro Magnetico",
     formula: "Fe₃O₄",
-    system: "Cubico (Spinello)",
+    system: "Cubico",
     hardness: 6,
     category: "Ossido",
     colorGradient: "from-zinc-800/30 via-neutral-900/20 to-amber-900/5",
     accentColor: "#71717a",
-    scientificBasis: "Il minerale naturalmente più magnetico sulla Terra (ferrimagnetismo naturale permanente). Incarna la forza di gravità incontrollabile, i vincoli materiali duraturi, l'attrazione viscerale e il legame fisico.",
+    scientificBasis: "Il minerale naturalmente più magnetico sulla Terra (ferrimagnetismo naturale permanente). Incarna la forza di gravità incontrollabile, i vincoli materiali duraturi, l'attrazione viscerale e le legame fisico.",
     opticsPhysical: "Ferrimagnetismo permanente dovuto allo sbilanciamento di spin tra gli ioni Fe²⁺ e Fe³⁺ nei siti strutturali.",
     materiale: "Ossido misto di ferro bivalente e trivalente. Cristallizza nel sistema cubico in splendidi ottaedri neri opachi. Durezza 5.5-6.5. Ha un forte magnetismo naturale in grado di attrarre la limatura di ferro e deviare gli aghi delle bussole.",
     spirituale: "Rappresenta l'incarnazione più densa della materia, le catene dorate dell'attrazione magnetica terrestre e l'energia sessuale/creativa originaria non canalizzata. È la trappola del materialismo ma anche la chiave per padroneggiare le correnti telluriche.",
     immaginale: "Il Daimon del Legame Magnetico e del Desiderio. Nella psicologia immaginale rappresenta le passioni viscerali che incatenano l'anima alla terra, ma che costituiscono anche la materia prima indispensabile per l'Opera. È l'attrazione fatale delle immagini.",
     crystalShape: "cubic",
-    imageUrl: "https://images.unsplash.com/photo-1614362145802-53b708304959?auto=format&fit=crop&w=600&q=80", // fallback metallico
-    tags: ["Ferrimagnetismo", "Catene della Materia", "Ottoredo Nero", "Passione"]
+    imageUrl: "https://images.unsplash.com/photo-1614362145802-53b708304959?auto=format&fit=crop&w=600&q=80",
+    tags: ["Ferrimagnetismo", "Catene della Materia", "Ottoredo Nero", "Passione"],
+    chakraName: "Muladhara - Chakra della Radice (Primo Chakra)",
+    chakraMotivazione: "Il ferrimagnetismo permanente della Magnetite simboleggia l'intensa attrazione magnetica gravitazionale della materia e degli istinti densi dominati dal Diavolo, legandoli visceralmente a Muladhara.",
+    chakraPuntiForza: "Irresistibile attrazione e carisma personale, immensa vitalità fisica e perfetto radicamento nell'abbondanza materiale.",
+    chakraPuntiDebolezza: "Attaccamento morboso tossico, brama ossessiva di controllo egoico, dipendenze fisiche ed avidità spirituale.",
+    chakraEquilibrio: "Praticare movimenti lenti del bacino e di rilascio miofasciale massaggiando i punti contratti con magnetite; visualizzare le linee di flusso magnetico equilibrarsi nell'asse corporeo."
   },
   {
     number: 16,
@@ -355,8 +435,13 @@ export const ARCANA_DATA: ArcanoMineral[] = [
     spirituale: "Rappresenta la folgore divina che distrugge la torre dell'orgoglio o le false certezze dell'Io. È l'intervento improvviso dello Spirito che spezza i vecchi schemi cristallizzati per costringere l'essere a ricominciare su basi autentiche.",
     immaginale: "Il Daimon della Folgore e del Crollo. Nella psicologia immaginale è l'archetipo della crisi liberatoria: la distruzione delle corazze difensive che imprigionavano l'Anima. È l'istante cosmico in cui il cielo bacia la terra col fuoco.",
     crystalShape: "amorphous",
-    imageUrl: "https://images.unsplash.com/photo-1615485290382-441e4d049cb5?auto=format&fit=crop&w=600&q=80", // fallback impact
-    tags: ["Folgore", "Crollo Liberatorio", "Shock Termico", "Tubo di Silice"]
+    imageUrl: "https://images.unsplash.com/photo-1615485290382-441e4d049cb5?auto=format&fit=crop&w=600&q=80",
+    tags: ["Folgore", "Crollo Liberatorio", "Shock Termico", "Tubo di Silice"],
+    chakraName: "Manipura - Chakra del Plesso Solare (Terzo Chakra)",
+    chakraMotivazione: "La fulminea scarica elettrica termica che crea la Fulgurite rispecchia la demolizione violenta e improvvisa delle corazze dell'ego, catalizzando una liberazione bruciante nel plesso solare.",
+    chakraPuntiForza: "Rottura immediata di catene psichiche logore, purificazione traumatica ma catartica e rivelazione istantanea della verità.",
+    chakraPuntiDebolezza: "Shock post-traumatico, spossatezza estrema del sistema nervoso e strenua resistenza cosciente al cambiamento.",
+    chakraEquilibrio: "Praticare respirazioni respiratorie catartiche (Breathwork) stringendo delicatamente la fulgurite sul plesso solare; lasciare andare le tensioni viscerali con suoni liberatori."
   },
   {
     number: 17,
@@ -371,13 +456,18 @@ export const ARCANA_DATA: ArcanoMineral[] = [
     colorGradient: "from-blue-500/20 via-cyan-600/10 to-indigo-300/5",
     accentColor: "#60a5fa",
     scientificBasis: "Corindone blu che presenta l'asterismo: una stella luminosa a 6 punte dovuta alla riflessione della luce su microscopici aghi orientati di rutilo. Rappresenta la speranza, la fede e la guida celeste.",
-    opticsPhysical: "Asterismo ottico perfetto visibile in luce puntiforme diretta, durezza record (seconda solo al diamante).",
+    opticsPhysical: "Asterismo ottico perfect visibile in luce puntiforme diretta, durezza record (seconda solo al diamante).",
     materiale: "Ossido di alluminio puro (corindone). Cristallizza nel sistema trigonale. Durezza eccezionale (9 Mohs). Il colore blu è dovuto a tracce di ferro e titanio; la presenza di aghi microscopici di rutilo orientati a 120° genera il fenomeno ottico dell'asterismo.",
     spirituale: "Rappresenta la guida interiore, la fede incrollabile nel destino spirituale e la luce che brilla nelle tenebre dell'inconscio. È la stella polare dell'Anima che indica la via del ritorno all'Unità cosmica attraverso la speranza attiva.",
     immaginale: "Il Daimon dell'Asterismo e della Visione Stellare. Simboleggia la capacità immaginale di scorgere un ordine poetico e luminoso (la stella) anche nella materia più densa o nelle notti più buie della psiche. È la poesia cosmica curativa.",
     crystalShape: "trigonal",
-    imageUrl: "https://images.unsplash.com/photo-1515694346937-94d85e41e6f0?auto=format&fit=crop&w=600&q=80", // fallback blue crystal
-    tags: ["Asterismo", "Speranza Cosmica", "Durezza 9", "Aghi di Rutilo"]
+    imageUrl: "https://images.unsplash.com/photo-1515694346937-94d85e41e6f0?auto=format&fit=crop&w=600&q=80",
+    tags: ["Asterismo", "Speranza Cosmica", "Durezza 9", "Aghi di Rutilo"],
+    chakraName: "Ajna - Chakra del Terzo Occhio (Sesto Chakra)",
+    chakraMotivazione: "La stella simmetrica a sei punte che brilla sul velluto azzurro dello Zaffiro evoca il Terzo Occhio che scorge la mappa sacra dell'Anima Mundi, donando fede nel cammino stellare.",
+    chakraPuntiForza: "Fede profonda nel destino cosmico, visione profetica, ottimismo poetico e chiarezza di percorso.",
+    chakraPuntiDebolezza: "Evitamento della realtà terrena, astrazione sterile, fantasticherie eccessive e distacco emotivo algido.",
+    chakraEquilibrio: "Sdraiarsi sotto il cielo stellato adagiando lo zaffiro stellato sulla fronte; visualizzare la stella a sei punte interiore che illumina la via."
   },
   {
     number: 18,
@@ -397,8 +487,13 @@ export const ARCANA_DATA: ArcanoMineral[] = [
     spirituale: "Rappresenta la recettività pura, il mondo dei sogni, dell'inconscio e delle ombre. La sua estrema delicatezza ricorda che la psiche profonda deve essere trattata con immenso rispetto e cura, evitando le rigidità razionali dogmatiche.",
     immaginale: "Il Daimon del Sogno e dello Specchio d'Acqua. Nella psicologia immaginale rappresenta il regno lunare del notturno, dell'immaginazione poetica e delle visioni ancestrali. È la luce soffusa che illumina le profondità marine dell'Anima Mundi.",
     crystalShape: "monoclinic",
-    imageUrl: "https://images.unsplash.com/photo-1551269901-5c5e14c25df7?auto=format&fit=crop&w=600&q=80", // fallback soft
-    tags: ["Luce Lattiginoso", "Regno del Sogno", "Evaporite", "Morbidezza"]
+    imageUrl: "https://images.unsplash.com/photo-1551269901-5c5e14c25df7?auto=format&fit=crop&w=600&q=80",
+    tags: ["Luce Lattiginoso", "Regno del Sogno", "Evaporite", "Morbidezza"],
+    chakraName: "Sahasrara - Chakra della Corona (Settimo Chakra)",
+    chakraMotivazione: "L'irradiazione lattiginosa e impalpabile della Selenite, con la sua eccezionale morbidezza strutturale evaporitica, facilita l'apertura ricettiva della corona al regno dell'inconscio e dei sogni.",
+    chakraPuntiForza: "Straordinaria sensibilità immaginifica, capacità di accogliere le ombre ancestrali e quiete meditativa profonda.",
+    chakraPuntiDebolezza: "Invasione da parte di incubi o illusioni deformanti, estrema vulnerabilità alle emozioni altrui e debolezza dei confini dell'Io.",
+    chakraEquilibrio: "Mettere un blocco di selenite vicino alla testiera del letto per propiziare sonno quieto e sogni lucidi; meditare visualizzando una doccia di luce argentea perlacea."
   },
   {
     number: 19,
@@ -418,8 +513,13 @@ export const ARCANA_DATA: ArcanoMineral[] = [
     spirituale: "Rappresenta la Coscienza solare, la gioia di vivere radiosa, la chiarezza dell'intelletto superiore e la fecondità spirituale. È la verità rivelata a mezzogiorno, che scioglie tutte le ombre e riscalda i cuori con la sua generosità cosmica.",
     immaginale: "Il Daimon della Chiarezza e della Radianza. È l'archetipo dell'Io integrato che risplende di luce propria senza accecare, offrendo calore, verità e abbondanza creativa. Simboleggia il Sole dell'Anima pienamente risvegliato.",
     crystalShape: "trigonal",
-    imageUrl: "https://images.unsplash.com/photo-1615485290382-441e4d049cb5?auto=format&fit=crop&w=600&q=80", // yellow-gold fallback
-    tags: ["Radianza Solare", "Trasmittanza Gialla", "Coscienza Sveglia", "Chiarezza"]
+    imageUrl: "https://images.unsplash.com/photo-1615485290382-441e4d049cb5?auto=format&fit=crop&w=600&q=80",
+    tags: ["Radianza Solare", "Trasmittanza Gialla", "Coscienza Sveglia", "Chiarezza"],
+    chakraName: "Manipura - Chakra del Plesso Solare (Terzo Chakra)",
+    chakraMotivazione: "La trasmittanza gialla dorata splendente del Quarzo Citrino incarna la vitalità calda e pura del Sole, irradiando ed eliminando ogni ristagno energetico nel Plesso Solare.",
+    chakraPuntiForza: "Ottimismo contagioso, vitalità maestosa, autostima solida e coraggioso senso di generosità.",
+    chakraPuntiDebolezza: "Iperattivismo bruciante, egocentrismo accecante e intolleranza verso le zone d'ombra personali o collettive.",
+    chakraEquilibrio: "Esporsi alla luce solare del primo mattino cullando il citrino sul plesso solare; praticare respirazioni ritmiche colme di sentimenti di gratitudine attiva."
   },
   {
     number: 20,
@@ -439,8 +539,13 @@ export const ARCANA_DATA: ArcanoMineral[] = [
     spirituale: "Rappresenta il Risveglio spirituale, la chiamata a trascendere i limiti terrestri per aprirsi alla dimensione cosmica. È l'alleanza sigillata col fuoco tra il Cielo (il meteorite) e la Terra (le rocce fuse), la resurrezione alchemica dell'essere.",
     immaginale: "Il Daimon del Risveglio Cosmico. Simboleggia lo shock evolutivo che scuote l'Anima dal suo sonno terrestre millenario, ricordandole la sua vera origine stellare. È l'archetipo del salto quantico psichico, la metamorfosi verde.",
     crystalShape: "amorphous",
-    imageUrl: "https://images.unsplash.com/photo-1599707367072-cd6ada2bc375?auto=format&fit=crop&w=600&q=80", // fallback moldavite
-    tags: ["Origine Meteoritica", "Risveglio Iniziatico", "Tettite Verde", "Salto Quantico"]
+    imageUrl: "https://images.unsplash.com/photo-1599707367072-cd6ada2bc375?auto=format&fit=crop&w=600&q=80",
+    tags: ["Origine Meteoritica", "Risveglio Iniziatico", "Tettite Verde", "Salto Quantico"],
+    chakraName: "Anahata / Ajna - Quarto e Sesto Chakra (Cuore e Terzo Occhio)",
+    chakraMotivazione: "Essendo una rarissima tettite d'impatto meteoritico verde oliva traslucida, fonde l'elemento celeste (il meteorite) con quello terreno, destando il Cuore (Anahata verde) e sintonizzando il Terzo Occhio al risveglio del Giudizio.",
+    chakraPuntiForza: "Risveglio psichico di eccezionale rapidità, apertura cosmica e comprensione istantanea delle grandi trame del destino.",
+    chakraPuntiDebolezza: "Mancanza di acclimatamento terreno (vivere 'fuori dal mondo'), shock energetico e vertigini psichiche repentine.",
+    chakraEquilibrio: "Alternare la moldavite sul cuore a pietre di radicamento (ematite, ossidiana) per non sradicare la psiche dal corpo; respirare a fondo con la terra."
   },
   {
     number: 21,
@@ -461,6 +566,11 @@ export const ARCANA_DATA: ArcanoMineral[] = [
     immaginale: "Il Daimon della Perfezione e del Compimento. Nella psicologia immaginale rappresenta l'individuazione compiuta (Jung), lo stato in cui tutte le parti frammentate della psiche sono state integrate in un reticolo di diamante eterno, indistruttibile e luminoso.",
     crystalShape: "cubic",
     imageUrl: "https://images.unsplash.com/photo-1605100804763-247f67b3557e?auto=format&fit=crop&w=600&q=80",
-    tags: ["Incorruttibile", "Individuazione", "Carbonio Covalente", "Compimento"]
+    tags: ["Incorruttibile", "Individuazione", "Carbonio Covalente", "Compimento"],
+    chakraName: "Tutti i 7 Chakra Allineati (Integrazione Suprema)",
+    chakraMotivazione: "Il Diamante, carbonio covalente indistruttibile con indice di rifrazione assoluto, simboleggia il compimento dell'Opera del Mondo, allineando e unificando tutti i 7 chakra in una pura colonna di luce adamantina.",
+    chakraPuntiForza: "Incorruttibilità assoluta alle alterazioni esterne, autorealizzazione del Sé e radiosa integrità morale.",
+    chakraPuntiDebolezza: "Distacco e gelido isolamento dal calore ordinario dei sentimenti umani terreni.",
+    chakraEquilibrio: "Meditare visualizzando una cascata di luce adamantina che scende dall'universo ed attraversa ciascuno dei sette chakra, purificando ed unificando l'asse centrale dell'essere."
   }
 ];
