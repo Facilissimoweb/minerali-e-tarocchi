@@ -56,3 +56,101 @@
   -ms-overflow-style: none;
   scrollbar-width: none;
 }
+
+/* Markdown Rendering Styles for Chat */
+.markdown-body p {
+  margin-bottom: 0.75rem;
+}
+.markdown-body p:last-child {
+  margin-bottom: 0;
+}
+.markdown-body strong {
+  color: #fbbf24;
+  font-weight: 600;
+}
+.markdown-body ul, .markdown-body ol {
+  margin-left: 1.25rem;
+  margin-bottom: 0.75rem;
+  list-style-type: decimal;
+}
+.markdown-body ul {
+  list-style-type: disc;
+}
+.markdown-body li {
+  margin-bottom: 0.25rem;
+}
+
+/* High-fidelity PDF/Print styling rules */
+@media print {
+  /* Hide all elements except the card container */
+  body * {
+    visibility: hidden;
+    background: transparent !important;
+  }
+  
+  #printable-card, #printable-card * {
+    visibility: visible;
+  }
+  
+  #printable-card {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    color: #1e293b !important;
+    background: #ffffff !important;
+    padding: 20px !important;
+    font-family: 'Plus Jakarta Sans', system-ui, sans-serif !important;
+  }
+  
+  /* Reset text colors for perfect readability on white paper */
+  #printable-card h2, #printable-card h3, #printable-card h4, #printable-card span, #printable-card p {
+    color: #0f172a !important;
+  }
+  
+  #printable-card h2 {
+    font-family: 'Cinzel', serif !important;
+    border-bottom: 2px solid #e2e8f0 !important;
+    padding-bottom: 12px !important;
+  }
+  
+  #printable-card h3 {
+    color: #b45309 !important; /* amber-700 */
+    margin-top: 15px !important;
+  }
+  
+  #printable-card h4 {
+    color: #0f172a !important;
+    font-weight: bold !important;
+  }
+  
+  /* Boxes styled nicely with simple borders instead of dark gradients */
+  #printable-card .grid > div,
+  #printable-card .space-y-4 > div > div {
+    background: #f8fafc !important;
+    border: 1px solid #e2e8f0 !important;
+    border-radius: 8px !important;
+    padding: 12px !important;
+    color: #334155 !important;
+  }
+  
+  #printable-card img {
+    border-radius: 8px !important;
+    border: 1px solid #cbd5e1 !important;
+    max-height: 200px !important;
+    width: 100% !important;
+    object-fit: cover !important;
+  }
+  
+  /* Ensure colors are printed */
+  * {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+  
+  /* Hide action buttons on printable area */
+  .print\:hidden,
+  button {
+    display: none !important;
+  }
+}

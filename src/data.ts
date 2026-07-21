@@ -10,12 +10,17 @@ export const ARCANA_DATA: ArcanoMineral[] = [
     formula: "SiO₂",
     system: "Trigonale",
     hardness: 7,
-    category: "Silicato",
+    category: "Silicato (Ossido)",
     colorGradient: "from-slate-200/20 via-sky-100/10 to-blue-200/5",
     accentColor: "#e0f2fe",
-    scientificBasis: "Trasparente e privo di impurità cromatiche, contiene in potenza l'intero spettro della luce visibile. Incarna la tabula rasa, il potenziale puro, lo stato di energia originaria e non polarizzata.",
-    opticsPhysical: "Trasparenza ottica completa, piezoelettricità elevata, rifrazione limpida.",
-    tags: ["Potenziale Puro", "Trasparenza", "Inizio", "Piezoelettrico"]
+    scientificBasis: "Trasparente e privo di impurità cromatiche, contiene in potenza l'intero spettro della luce visibile. Incarna la tabula rasa, l'inizio assoluto e l'energia indifferenziata.",
+    opticsPhysical: "Trasparenza ottica completa, elevata piezoelettricità, rifrazione limpida senza assorbimento selettivo.",
+    materiale: "Biossido di silicio puro cristallizzato nel sistema trigonale. È caratterizzato da una durezza Mohs pari a 7 e dall'assenza di sfaldatura, con frattura concoide. Presenta spiccate proprietà piezoelettriche, in grado di generare cariche elettriche in risposta a sollecitazioni meccaniche.",
+    spirituale: "Rappresenta l'Unità primordiale, la luce bianca indifferenziata che precede la scomposizione dello spettro visibile. È il veicolo dello Spirito che scende nella materia senza lasciarsi corrompere, mantenendo pura l'intenzione originaria del viaggio.",
+    immaginale: "Il Daimon della tabula rasa. Nella psicologia immaginale rappresenta lo stato di 'vuoto fertile' (Kenosis) e la purezza della percezione non filtrata dai costrutti dell'Io. È lo specchio dell'Anima Mundi prima della polarizzazione, il corpo di luce trasparente.",
+    crystalShape: "trigonal",
+    imageUrl: "https://images.unsplash.com/photo-1599707367072-cd6ada2bc375?auto=format&fit=crop&w=600&q=80",
+    tags: ["Potenziale Puro", "Kenosis", "Piezoelettrico", "Luce Bianca"]
   },
   {
     number: 1,
@@ -29,9 +34,14 @@ export const ARCANA_DATA: ArcanoMineral[] = [
     category: "Solfuro",
     colorGradient: "from-amber-400/20 via-yellow-600/10 to-amber-200/5",
     accentColor: "#f59e0b",
-    scientificBasis: "Solfuro di ferro dai riflessi metallici dorati con perfetti cristalli cubici o pentagonododecaedrici. Rappresenta la materia grezza organizzata con millimetrica precisione e la scintilla originaria (se percossa genera faville).",
-    opticsPhysical: "Lucentezza metallica, sfaldatura imperfetta, genesi idrotermale/sedimentaria.",
-    tags: ["Geometria Cubica", "Scintilla", "Organizzazione", "Metallo"]
+    scientificBasis: "Solfuro di ferro con perfetti cristalli cubici dai riflessi dorati. Rappresenta la capacità di organizzare la materia grezza con precisione geometrica e la scintilla dell'azione creatrice.",
+    opticsPhysical: "Lucentezza metallica elevata, scarsa conducibilità elettrica a freddo, genesi prevalentemente idrotermale.",
+    materiale: "Bisolfuro di ferro (FeS₂). Cristallizza nel sistema cubico, formando spesso perfetti cubi striati o pentagonododecaedri (piritoedri). Con una durezza Mohs di 6-6.5, è un minerale pesante con lucentezza metallica speculare dorata.",
+    spirituale: "Rappresenta il Logos ordinatore, il principio della Volontà che modella il caos amorfo terrestre in forme perfette. È il fuoco concentrato nella terra, la scintilla d'oro che risiede nei recessi profondi dell'inconscio.",
+    immaginale: "Il Daimon dell'Alchimista e del Fabbro. Simboleggia il potere immaginale di tradurre l'ispirazione invisibile in una struttura tridimensionale tangibile e definita. È l'archetipo dell'inizio dell'Opera, dove lo spirito si fa architettura d'oro.",
+    crystalShape: "cubic",
+    imageUrl: "https://images.unsplash.com/photo-1614362145802-53b708304959?auto=format&fit=crop&w=600&q=80",
+    tags: ["Volontà", "Struttura Cubica", "Fuoco della Terra", "Inizio Opera"]
   },
   {
     number: 2,
@@ -39,15 +49,20 @@ export const ARCANA_DATA: ArcanoMineral[] = [
     arcanaName: "La Papessa",
     mineralName: "Pietra di Luna",
     subTitle: "Adularia",
-    formula: "KAlSi₃O₅",
+    formula: "KAlSi₃O₈",
     system: "Monoclinico",
     hardness: 6,
-    category: "Feldspato",
+    category: "Silicato (Feldspato)",
     colorGradient: "from-indigo-300/20 via-slate-400/10 to-purple-300/5",
     accentColor: "#c084fc",
-    scientificBasis: "Esibisce il fenomeno ottico dell'adularescenza: un bagliore azzurro-biancastro fluttuante causato dalla diffusione della luce tra strati microscopici alternati di albite ed ortoclasio. Simboleggia la conoscenza velata e il mistero sotto la superficie.",
-    opticsPhysical: "Adularescenza (effetto Tyndall/diffrazione), sfaldatura perfetta in 2 direzioni.",
-    tags: ["Adularescenza", "Conoscenza Velata", "Feldspato", "Rifrazione"]
+    scientificBasis: "Esibisce il fenomeno dell'adularescenza: un riflesso azzurrato fluttuante generato dall'interferenza ottica tra strati alternati microscopici di albite e ortoclasio. Simboleggia il mistero svelato gradualmente.",
+    opticsPhysical: "Gatteggiamento soffuso, riflessi blu-argentei dovuti all'effetto ottico Tyndall su microstrutture.",
+    materiale: "Varietà di feldspato potassico (ortoclasio o adularia). Cristallizza nel sistema monoclinico. Esibisce una sfaldatura perfetta in due direzioni a 90° e una durezza di 6. Il suo tipico chiarore fluttuante è dovuto alla separazione microscopica dei piani cristallini durante il raffreddamento.",
+    spirituale: "Custode delle acque sotterranee e della rivelazione silenziosa. Incarna la Sapienza non detta, lo specchio lunare che riflette la luce solare rendendola sopportabile per l'occhio interiore, il velo del tempio che protegge i misteri.",
+    immaginale: "Il Daimon della Soglia e dell'Inconscio. Rappresenta la percezione dei mondi sottili attraverso l'immaginazione passiva e ricettiva. È l'Anima che apprende nel silenzio e nel sogno, leggendo la trama nascosta dei fenomeni naturali.",
+    crystalShape: "monoclinic",
+    imageUrl: "https://images.unsplash.com/photo-1551269901-5c5e14c25df7?auto=format&fit=crop&w=600&q=80",
+    tags: ["Intuizione", "Adularescenza", "Sapienza Silente", "Feldspato"]
   },
   {
     number: 3,
@@ -58,12 +73,17 @@ export const ARCANA_DATA: ArcanoMineral[] = [
     formula: "Be₃Al₂Si₆O₁₈:Cr",
     system: "Esagonale",
     hardness: 7.8,
-    category: "Ciclosilicato",
+    category: "Silicato (Ciclosilicato)",
     colorGradient: "from-emerald-500/20 via-green-600/10 to-teal-400/5",
     accentColor: "#10b981",
-    scientificBasis: "Ciclosilicato di berillio ed alluminio arricchito di tracce di cromo e vanadio che generano il caratteristico verde intenso. Rappresenta la forza generatrice della biosfera, la fertilità organica e la vita nel suo massimo splendore.",
-    opticsPhysical: "Plecrioismo evidente (verde-blu/verde-giallo), presenza di giardini/inclusione interne.",
-    tags: ["Fertilità", "Cromo", "Ciclosilicato", "Vita Organica"]
+    scientificBasis: "Berillo arricchito da micro-tracce di cromo o vanadio che assorbono la luce rossa donando un verde lussureggiante. Incarna l'energia vitale generatrice, la fecondità della natura e lo splendore della crescita.",
+    opticsPhysical: "Trasparenza pleocroica, stabilità chimica assoluta, inclusioni tipiche chiamate 'giardino'.",
+    materiale: "Varietà verde del berillo, un silicato di berillio e alluminio. Cristallizza nel sistema esagonale, formando prismi regolari. Durezza elevatissima (7.5-8), ma fragile per la presenza di fessurazioni naturali interne (giardini dello smeraldo).",
+    spirituale: "Rappresenta l'energia rigeneratrice dello Spirito della Natura (Viriditas). È la forza vitale divina che infonde bellezza e fertilità in tutta la creazione terrestre, la primavera interiore che fiorisce anche nel deserto.",
+    immaginale: "Il Daimon della Fioritura e dell'Abbondanza. Simboleggia l'intelletto attivo immerso nell'Anima Mundi, capace di sognare forme lussureggianti e dar loro vita. È il volto verde della Grande Madre che accoglie, nutre ed esalta la vita.",
+    crystalShape: "hexagonal",
+    imageUrl: "https://images.unsplash.com/photo-1617038260897-41a1f14a8ca0?auto=format&fit=crop&w=600&q=80",
+    tags: ["Abbondanza", "Viriditas", "Sistema Esagonale", "Grande Madre"]
   },
   {
     number: 4,
@@ -72,14 +92,19 @@ export const ARCANA_DATA: ArcanoMineral[] = [
     mineralName: "Diaspro Rosso",
     subTitle: "Quarzo Microcristallino",
     formula: "SiO₂ + Fe₂O₃",
-    system: "Microcristallino",
+    system: "Trigonale",
     hardness: 7,
-    category: "Ossido/Silicato",
+    category: "Silicato (Microcristallino)",
     colorGradient: "from-red-600/20 via-rose-800/10 to-orange-500/5",
     accentColor: "#ef4444",
-    scientificBasis: "Quarzo microcristallino compatto, denso e opaco, ricchissimo di inclusioni di ossidi di ferro (ematite). Presenta elevata compattezza e una stabilità strutturale che incarna la solidità, l'autorità, il rigore e il radicamento.",
-    opticsPhysical: "Frattura concoide, densità elevata, opacità ottica totale per micro-inclusioni di Fe.",
-    tags: ["Solidità", "Ossido di Ferro", "Autorità", "Compattezza"]
+    scientificBasis: "Quarzo microcristallino compatto e opaco, ricchissimo di ematite (ossido di ferro). La sua impareggiabile densità incarna la solidità, il radicamento terrestre, l'ordine stabile e la determinazione.",
+    opticsPhysical: "Opacità totale dovuta alle microinclusione ferrose disperse nella matrice di silice.",
+    materiale: "Roccia sedimentaria silicea formata da aggregati microcristallini di quarzo e calcedonio, intensamente pigmentata da ossidi di ferro (ematite) che le conferiscono il colore rosso mattone. Ha una durezza di 7 e una frattura concoide molto netta.",
+    spirituale: "Rappresenta la Legge, il radicamento terrestre e la stabilità incrollabile del trono. È lo scudo che protegge i confini e la forza d'animo che non vacilla di fronte alla tempesta, canalizzando l'energia vitale per scopi giusti e ordinati.",
+    immaginale: "Il Daimon del Custode e del Costruttore. È l'archetipo dell'autorità benevola che struttura lo spazio vitale, tracciando confini sani. Simboleggia il fuoco concentrato nella materia rocciosa, la certezza razionale che calma l'ansia dell'ignoto.",
+    crystalShape: "trigonal",
+    imageUrl: "https://images.unsplash.com/photo-1615485290382-441e4d049cb5?auto=format&fit=crop&w=600&q=80",
+    tags: ["Radicamento", "Struttura Stabile", "Ossido di Ferro", "Legge"]
   },
   {
     number: 5,
@@ -87,15 +112,20 @@ export const ARCANA_DATA: ArcanoMineral[] = [
     arcanaName: "Il Papa",
     mineralName: "Lapis Lazzuli",
     subTitle: "Roccia a Lazurite",
-    formula: "Roccia (Lazurite + Calcite + Pirite)",
-    system: "Roccia Metamorfica",
+    formula: "Na₈[Al₆Si₆O₂₄]Sₙ + Pyrite/Calcite",
+    system: "Cubico (Lazurite)",
     hardness: 5.5,
-    category: "Roccia Composita",
+    category: "Roccia Metamorfica",
     colorGradient: "from-blue-600/20 via-indigo-900/10 to-yellow-500/5",
     accentColor: "#3b82f6",
-    scientificBasis: "Roccia metamorfica composita costituita da lazurite (blu), calcite (venature bianche) e pirite (pagliuzze dorate). Utilizzato fin dall'antichità per il pigmento sacro blu oltremare, simboleggia l'unione organica di elementi diversi sotto una dottrina o legge comune.",
-    opticsPhysical: "Composizione aggregata, presenza di solfuri e silicati congiunti.",
-    tags: ["Dottrina", "Composito", "Pigmento Sacro", "Unione"]
+    scientificBasis: "Roccia metamorfica in cui la lazurite azzurro-oltremare accoglie inclusioni dorate di pirite e bianche di calcite. Simboleggia l'unione organica di elementi opposti sotto una dottrina spirituale comune.",
+    opticsPhysical: "Associazione di più minerali cristallini distinti, storicamente fonte del sacro blu oltremare.",
+    materiale: "Non un singolo minerale, ma una roccia metamorfica formata principalmente da lazurite (un silicato contenente zolfo che dona il colore blu profondo), calcite (venature bianche) e pirite (pagliuzze metalliche dorate). Durezza 5.5, sensibile agli acidi.",
+    spirituale: "Rappresenta l'insegnamento sacro, la connessione tra la terra e il cielo stellato (rappresentato dalle inclusioni di pirite dorata sul blu profondo). È la voce del saggio che traduce le leggi divine in precetti morali ed etici umani.",
+    immaginale: "Il Daimon del Saggio e della Parola Sacra. Simboleggia l'unione rituale tra elementi diversi che trovano armonia in un disegno cosmico elevato. Traduce il profondo mistero dell'universo in una formula di comprensione comune.",
+    crystalShape: "complex",
+    imageUrl: "https://images.unsplash.com/photo-1599707367072-cd6ada2bc375?auto=format&fit=crop&w=600&q=80", // Lapis fallback or quartz
+    tags: ["Insegnamento Sacro", "Cielo Stellato", "Lazurite", "Unione Opposti"]
   },
   {
     number: 6,
@@ -109,9 +139,14 @@ export const ARCANA_DATA: ArcanoMineral[] = [
     category: "Silicato",
     colorGradient: "from-rose-400/20 via-pink-600/10 to-red-300/5",
     accentColor: "#f472b6",
-    scientificBasis: "Deve la sua delicata tonalità rosa a microscopiche inclusioni dicroiche di dumortierite o fibre di titanio/manganese. Incarna la tensione di attrazione molecolare, l'armonia polare tra elementi e la complementarietà chimica.",
-    opticsPhysical: "A volte mostra asterismo a 6 punte in sezione sferica, trasparenza traslucida.",
-    tags: ["Attrazione", "Complementarietà", "Inclusioni", "Sintesi"]
+    scientificBasis: "Deve la sua tonalità rosa a finissime inclusioni fibrose dicroiche di dumortierite o titanio/manganese. Incarna la tensione attrattiva intermolecolare, la risonanza polare e l'unione dei simili.",
+    opticsPhysical: "Trasparenza traslucida, pleocroismo debole, talvolta esibisce asterismo a sei punte in luce trasmessa.",
+    materiale: "Varietà macrocristallina di biossido di silicio. Il colore rosa pallido o intenso è dovuto alla presenza di micro-inclusioni aghiformi orientate di una fase silicea affine alla dumortierite. Non forma quasi mai cristalli con facce euetrali.",
+    spirituale: "Rappresenta l'amore universale, l'apertura del cuore e la grazia della scelta affettiva priva di egoismo. È la forza cosmica dell'attrazione molecolare e affettiva che lega gli elementi separati per dare vita a nuove e più complesse sintesi spirituali.",
+    immaginale: "Il Daimon dell'Incontro e dell'Armonia Polare. È lo specchio dell'Anima che riconosce sé stessa nell'altro, superando la scissione originaria. Rappresenta la tenerezza immaginale che ammorbidisce le durezze difensive dell'Io.",
+    crystalShape: "trigonal",
+    imageUrl: "https://images.unsplash.com/photo-1605721911519-3dfeb3be25e7?auto=format&fit=crop&w=600&q=80",
+    tags: ["Scelta del Cuore", "Risonanza", "Dumortierite", "Amore Cosmico"]
   },
   {
     number: 7,
@@ -125,9 +160,14 @@ export const ARCANA_DATA: ArcanoMineral[] = [
     category: "Ossido",
     colorGradient: "from-slate-400/20 via-zinc-700/10 to-red-900/5",
     accentColor: "#94a3b8",
-    scientificBasis: "Principale minerale del ferro, pesante e dalla lucentezza metallica speculare grigio-acciaio, ma con polvere e striscia rosso-sangue. Rappresenta la forza propulsiva, la spinta meccanica industriale, l'armatura e la schermatura.",
-    opticsPhysical: "Elevatissimo peso specifico (5.26 g/cm³), opacità metallica, striscia rosso marrone.",
-    tags: ["Spinta Meccanica", "Metallo Pesante", "Schermatura", "Forza"]
+    scientificBasis: "Ossido di ferro pesante grigio-acciaio speculare all'esterno, ma con polvere e striscia rosso-sangue all'interno. Incarna la forza cinetica propulsiva, lo scudo e la determinazione metallica.",
+    opticsPhysical: "Riflettanza metallica estrema, elevatissimo peso specifico (5.26 g/cm³), magnetismo assente a freddo.",
+    materiale: "Sesquiossido di ferro (Fe₂O₃). Cristallizza nel sistema trigonale. È caratterizzata da una lucentezza metallica grigia lucida, ma la sua polvere e la sua traccia su porcellana ruvida sono costantemente di un colore rosso sangue intenso (da cui il nome ematite).",
+    spirituale: "Rappresenta la volontà focalizzata del guerriero spirituale che cavalca la materia. È il sangue di ferro che scorre nelle vene della terra, dando la forza vitale e il coraggio per conquistare la propria indipendenza spirituale senza perdersi.",
+    immaginale: "Il Daimon del Guerriero e del Trionfo. Rappresenta il processo di incarnazione e manifestazione terrena dello spirito: la discesa della luce invisibile nel sangue rosso e nella carne. È la corazza immaginale che protegge l'Anima nel viaggio.",
+    crystalShape: "trigonal",
+    imageUrl: "https://images.unsplash.com/photo-1515694346937-94d85e41e6f0?auto=format&fit=crop&w=600&q=80",
+    tags: ["Forza Cinetica", "Sangue di Ferro", "Manifestazione", "Scudo Metallico"]
   },
   {
     number: 8,
@@ -136,14 +176,19 @@ export const ARCANA_DATA: ArcanoMineral[] = [
     mineralName: "Occhio di Tigre",
     subTitle: "Quarzo Pseudomorfo",
     formula: "SiO₂ + Crocidolite",
-    system: "Pseudomorfo",
+    system: "Trigonale (Pseudomorfo)",
     hardness: 7,
-    category: "Silicato",
+    category: "Silicato (Pseudomofosi)",
     colorGradient: "from-amber-600/20 via-yellow-700/10 to-stone-800/5",
     accentColor: "#d97706",
-    scientificBasis: "Nasce dalla silicizzazione e pseudomorfosi dell'amianto/crocidolite (fibroso e morbido) sostituito da silicio rigido. Rappresenta il completo dominio della materia, la trasformazione e la disciplina della forza grezza in struttura indistruttibile.",
-    opticsPhysical: "Gatteggiamento (chatoyancy) setoso dovuto all'orientamento parallelo delle microscopiche fibre sostituite.",
-    tags: ["Gatteggiamento", "Dominio Materia", "Pseudomorfosi", "Forza"]
+    scientificBasis: "Nasce dalla silicizzazione della crocidolite (amianto azzurro fibroso), le cui fibre rigide e orientate vengono progressivamente sostituite da silice e limonite dorata. Incarna il controllo armonico delle pulsioni istintive.",
+    opticsPhysical: "Gatteggiamento (chatoyancy) setoso dorato-marrone dovuto alla perfetta conservazione fibrosa originaria.",
+    materiale: "Varietà di quarzo microcristallino contenente fibre orientate di crocidolite (anfibolo) parzialmente alterate in limonite. Presenta durezza 7 e frattura fibrosa. Mostra uno splendido gioco luminoso ondulatorio a riflesso cangiante.",
+    spirituale: "Rappresenta l'equilibrio tra l'istinto animale originario e la coscienza superiore. È la trasmutazione del veleno o della debolezza (le fibre d'amianto fragili) in una pietra indistruttibile di puro silicio dorato.",
+    immaginale: "Il Daimon della Trasmutazione e del Coraggio. Rappresenta la capacità immaginale di cavalcare l'istinto senza reprimerlo né farsi travolgere, trasmutandolo in una risorsa energetica flessibile e luminosa. È lo sguardo vigile della tigre dell'anima.",
+    crystalShape: "trigonal",
+    imageUrl: "https://images.unsplash.com/photo-1599707367072-cd6ada2bc375?auto=format&fit=crop&w=600&q=80", // fallback
+    tags: ["Trasmutazione", "Gatteggiamento", "Autocontrollo", "Silicizzazione"]
   },
   {
     number: 9,
@@ -157,9 +202,14 @@ export const ARCANA_DATA: ArcanoMineral[] = [
     category: "Vetro Vulcanico",
     colorGradient: "from-stone-900/40 via-slate-900/30 to-purple-950/10",
     accentColor: "#64748b",
-    scientificBasis: "Deriva dal raffreddamento ultra-rapido della lava che impedisce la cristallizzazione: è priva di reticolo cristallino (struttura amorfa). Incarna la concentrazione interna, l'assenza di dispersione, il rigore dell'isolamento e l'introspezione pura.",
-    opticsPhysical: "Frattura concoide estremamente tagliente a livello molecolare, vetro naturale privo di ordine a lungo raggio.",
-    tags: ["Struttura Amorfa", "Introspezione", "Isolamento", "Frattura Tagliente"]
+    scientificBasis: "Vetro vulcanico nato dal raffreddamento istantaneo della lava, che non lascia il tempo agli atomi di organizzarsi in un reticolo ordinato. Incarna la concentrazione interna e il silenzioso rigore dell'isolamento.",
+    opticsPhysical: "Assenza totale di struttura cristallina a lungo raggio, frattura concoide estremamente affilata.",
+    materiale: "Roccia effusiva vetrosa di composizione acida (ricca di silice). Poiché si raffredda istantaneamente all'aria o in acqua, la sua struttura rimane amorfa. Ha durezza 5-5.5 e si rompe generando spigoli vivi di spessore molecolare.",
+    spirituale: "Rappresenta l'ascesi silenziosa e la luce interiore nascosta sotto l'apparenza scura. È la discesa consapevole nelle proprie tenebre per trovare la scintilla della Verità, l'isolamento ascetico che distrugge le illusioni superficiali dell'ego.",
+    immaginale: "Il Daimon dello Specchio Oscuro e dell'Ombra. Nella psicologia immaginale rappresenta lo specchio nero in cui l'Io affronta la propria ombra primordiale. È il guardiano silenzioso che custodisce il fuoco creativo interiore nel profondo silenzio della terra.",
+    crystalShape: "amorphous",
+    imageUrl: "https://images.unsplash.com/photo-1614362145802-53b708304959?auto=format&fit=crop&w=600&q=80", // obsidian-like
+    tags: ["Struttura Amorfa", "Integrità", "Specchio dell'Ombra", "Ritiro"]
   },
   {
     number: 10,
@@ -170,12 +220,17 @@ export const ARCANA_DATA: ArcanoMineral[] = [
     formula: "SiO₂·nH₂O",
     system: "Mineraloide",
     hardness: 6,
-    category: "Mineraloide",
+    category: "Mineraloide (Silice Idrata)",
     colorGradient: "from-teal-300/20 via-purple-400/10 to-amber-300/5",
     accentColor: "#2dd4bf",
-    scientificBasis: "Mostra il fenomeno della giostra cromatica (gioco di colore) causato dalla diffrazione della luce che attraversa una matrice ordinata di nanosfere di silice e acqua intersitiziale. Simboleggia il mutamento continuo, la dinamicità ciclica e l'imprevedibilità.",
-    opticsPhysical: "Iridescenza per interazione con nanosfere (150-300 nm), contenuto d'acqua variabile (3-21%).",
-    tags: ["Iridescenza", "Mutamento", "Nanosfere", "Dinamismo"]
+    scientificBasis: "Esibisce l'opalescenza e la giostra cromatica dovuta alla diffrazione della luce che attraversa nanosfere ordinate di silice immerse in acqua interstiziale. Simboleggia il mutamento continuo e la dinamicità ciclica.",
+    opticsPhysical: "Iridescenza per interazione ottica su nanosfere (150-300 nm), contenuto d'acqua variabile (fino al 21%).",
+    materiale: "Silice amorfa idrata contenente dal 3% al 21% di acqua. Non è un vero minerale ma un mineraloide. Il gioco di colori nasce dalla disposizione ordinata di microscopiche sfere di silice che creano un reticolo di diffrazione naturale per la luce.",
+    spirituale: "Rappresenta il mutamento eterno e il fluire perpetuo delle cose. Ricorda che la forma esterna è fluida e impermanente (come l'acqua racchiusa nella pietra), mentre l'essenza spirituale continua a risplendere in infinite combinazioni di colore.",
+    immaginale: "Il Daimon del Gioco e delle Metamorfosi. Simboleggia l'immaginazione fluida capace di assumere qualsiasi forma, colore e prospettiva senza irrigidirsi mai. Rappresenta la ruota dei destini psichici che gira continuamente, svelando nuove prospettive dell'essere.",
+    crystalShape: "amorphous",
+    imageUrl: "https://images.unsplash.com/photo-1515694346937-94d85e41e6f0?auto=format&fit=crop&w=600&q=80", // opal fallback
+    tags: ["Opalescenza", "Mutamento Fluido", "Nanosfere", "Metamorfosi"]
   },
   {
     number: 11,
@@ -186,12 +241,17 @@ export const ARCANA_DATA: ArcanoMineral[] = [
     formula: "CaF₂",
     system: "Cubico",
     hardness: 4,
-    category: "Alogeno",
+    category: "Alogenuro",
     colorGradient: "from-purple-500/20 via-emerald-600/10 to-blue-500/5",
     accentColor: "#c084fc",
-    scientificBasis: "Caratterizzata da una sfaldatura ottaedrica perfetta in 4 direzioni e da un'impeccabile simmetria nel sistema cubico. È il minerale da cui prende nome il fenomeno della fluorescenza. Rappresenta l'equilibrio geometrico, la chiarezza e l'imparzialità.",
-    opticsPhysical: "Sfaldatura ottaedrica immacolata, termoluminescenza e fluorescenza UV spiccata.",
-    tags: ["Sfaldatura Perfetta", "Fluorescenza", "Equilibrio", "Simmetria"]
+    scientificBasis: "Dotata di una sfaldatura ottaedrica geometricamente perfetta in 4 direzioni. Mostra una forte fluorescenza sotto i raggi UV. Incarna l'equilibrio rigoroso, la trasparenza logica, l'ordine razionale e l'imparzialità.",
+    opticsPhysical: "Fluorescenza spiccata per attivazione di impurità di terre rare, sfaldatura ottaedrica geometrica perfetta.",
+    materiale: "Fluoruro di calcio (CaF₂). Cristallizza nel sistema cubico, formando spesso geminati di compenetrazione o ottaedri perfetti per sfaldatura. Ha una durezza di 4 e presenta una gamma cromatica vastissima dovuta a difetti strutturali o elementi in traccia.",
+    spirituale: "Rappresenta l'equilibrio cosmico del discernimento e della giustizia divina. È la capacità di separare con impeccabile precisione la verità dall'illusione (rappresentata dai perfetti piani di sfaldatura ottaedrica che emergono dal cubo).",
+    immaginale: "Il Daimon dell'Equilibrio e della Chiarezza Mentale. Nella psicologia immaginale rappresenta il principio ordinatore che porta armonia e pace nell'anarchia emotiva, cristallizzando i pensieri vaghi in forme simmetriche e comprensibili.",
+    crystalShape: "cubic",
+    imageUrl: "https://images.unsplash.com/photo-1599707367072-cd6ada2bc375?auto=format&fit=crop&w=600&q=80", // fallback
+    tags: ["Sfaldatura Ottaedrica", "Discernimento", "Fluorescenza", "Simmetria"]
   },
   {
     number: 12,
@@ -202,12 +262,17 @@ export const ARCANA_DATA: ArcanoMineral[] = [
     formula: "Be₃Al₂Si₆O₁₈:Fe²⁺",
     system: "Esagonale",
     hardness: 7.8,
-    category: "Ciclosilicato",
+    category: "Silicato (Ciclosilicato)",
     colorGradient: "from-cyan-400/20 via-blue-500/10 to-sky-200/5",
     accentColor: "#38bdf8",
-    scientificBasis: "Varietà limpida di berillio legata all'elemento fluido. La trasparenza cristallina e il colore derivato dallo stato di ossidazione Fe²⁺ (ferro ferroso) simboleggiano la sospensione, la resa ottica, la ricettività e la limpidezza interiore.",
-    opticsPhysical: "Dicroismo trasparente, limpidezza cristallina elevata, resistenza chimica agli acidi.",
-    tags: ["Stato Fe²⁺", "Sospensione", "Trasparenza", "Ciclosilicato"]
+    scientificBasis: "Varietà limpida di berillo azzurro, il cui colore pastello è causato da ioni di ferro ferroso Fe²⁺ nel canale strutturale. Simboleggia la resa pacifica, la sospensione attiva, la limpidezza fluida e la percezione ribaltata.",
+    opticsPhysical: "Dicroismo trasparente blu/incolore, elevata trasmittanza nell'azzurro, eccezionale limpidezza interna.",
+    materiale: "Varietà azzurro-celeste del berillo. Cristallizza nel sistema esagonale in lunghi prismi striati. Durezza eccezionale (7.5-8). Il colore azzurro o verde-azzurro è dovuto alla presenza di ferro bivalente (Fe²⁺) che occupa i canali strutturali.",
+    spirituale: "Rappresenta lo stato di profonda pace interiore che deriva dall'arrendersi al flusso cosmico. È la purezza dell'acqua spirituale che purifica la mente, permettendo di guardare il mondo da una prospettiva capovolta senza opporre resistenza.",
+    immaginale: "Il Daimon del Flusso e della Rinuncia. Rappresenta l'accettazione consapevole dei cicli di attesa e la saggezza di chi sa che la vera forza risiede nella fluidità e nella non-azione. È la mente limpida come un mare calmo che riflette il cielo.",
+    crystalShape: "hexagonal",
+    imageUrl: "https://images.unsplash.com/photo-1617038260897-41a1f14a8ca0?auto=format&fit=crop&w=600&q=80", // fallback esagonale
+    tags: ["Sospensione Attiva", "Ferro Fe²⁺", "Limpidezza Celeste", "Resa"]
   },
   {
     number: 13,
@@ -218,12 +283,17 @@ export const ARCANA_DATA: ArcanoMineral[] = [
     formula: "NaFe³⁺₃Al₆(BO₃)₃Si₆O₁₈(OH)₄",
     system: "Trigonale",
     hardness: 7.2,
-    category: "Borosilicato",
+    category: "Silicato (Borosilicato)",
     colorGradient: "from-slate-900/50 via-zinc-900/40 to-stone-900/30",
     accentColor: "#475569",
-    scientificBasis: "Dotata di straordinarie proprietà piezoelettriche e piroelettriche: se compressa o scaldata accumula cariche elettriche opposte alle estremità. Incarna il taglio netto, la schermatura totale, la rigenerazione energetica e la trasmutazione della materia.",
-    opticsPhysical: "Piroelettricità, piezoelettricità, assorbimento completo delle radiazioni elettromagnetiche visibili.",
-    tags: ["Piezoelettrico", "Piroelettrico", "Trasmutazione", "Schermatura"]
+    scientificBasis: "Dotata di spiccata piroelettricità e piezoelettricità: se riscaldata o compressa accumula polarità elettriche opposte alle estremità. Incarna il taglio netto, lo scudo protettivo radicale e la trasmutazione.",
+    opticsPhysical: "Assorbimento ottico totale nel visibile, conducibilità anisotropa lungo l'asse allungato.",
+    materiale: "Borosilicato complesso di sodio e ferro. Cristallizza nel sistema trigonale in prismi allungati e striati longitudinalmente. Ha durezza 7-7.5. È nota per l'assorbimento quasi completo delle radiazioni elettromagnetiche visibili.",
+    spirituale: "Rappresenta la fine necessaria e la purificazione radicale. Come la pietra devia e scarica a terra le tensioni elettromagnetiche dannose, così questo archetipo distrugge i legami tossici e le strutture rigide, liberando l'essenza spirituale.",
+    immaginale: "Il Daimon del Taglio e della Rigenerazione. Simboleggia il rigore necessario per morire a ciò che è superfluo per rinascere nello spirito. È il guardiano oscuro della soglia alchemica che transmuta l'ombra in energia protettiva.",
+    crystalShape: "trigonal",
+    imageUrl: "https://images.unsplash.com/photo-1599707367072-cd6ada2bc375?auto=format&fit=crop&w=600&q=80", // fallback
+    tags: ["Piroelettrico", "Schermatura Totale", "Morte Iniziatica", "Taglio"]
   },
   {
     number: 14,
@@ -237,9 +307,14 @@ export const ARCANA_DATA: ArcanoMineral[] = [
     category: "Silicato",
     colorGradient: "from-purple-600/20 via-violet-800/10 to-indigo-500/5",
     accentColor: "#a855f7",
-    scientificBasis: "Quarzo la cui sfumatura viola nasce dall'interazione tra tracce di ferro trivalente (Fe³⁺) e il campo di irradiazione gamma naturale delle rocce ospiti. Rappresenta la sintesi alchemica tra il rosso (calore) e il blu (freddo), la misura e l'equilibrio.",
-    opticsPhysical: "Plecrioismo violetto/rosso-violetto, stabilità termica con cambio di colore a caldo.",
-    tags: ["Centri di Colore", "Alchimia", "Equilibrio Cromatico", "Irradiazione"]
+    scientificBasis: "Varietà di quarzo la cui sfumatura viola nasce da tracce di ferro trivalente Fe³⁺ sottoposte a irradiazione gamma naturale delle rocce. Rappresenta l'equilibrio alchemico degli opposti e la fluidità temperata.",
+    opticsPhysical: "Pleocroismo violetto evidente, scolorimento se sottoposta a forte calore (diviene citrino).",
+    materiale: "Biossido di silicio contenente atomi di ferro trivalente sostitutivi nel reticolo della silice. L'esposizione prolungata a radiazioni naturali ionizzanti genera 'centri di colore' stabili che assorbono la luce verde-gialla, donando il viola.",
+    spirituale: "Rappresenta la trasmutazione spirituale, la purificazione delle passioni e l'unione armoniosa degli opposti (il rosso del fuoco passionale e il blu della calma celestiale fusi nel viola). È il custode del giusto mezzo e della misura sacra.",
+    immaginale: "Il Daimon del Calice Alchemico e della Misura. È l'archetipo che pacifica le tensioni interiori, insegnando all'Anima a scorrere come acqua pura tra gli estremi dell'esistenza senza mai rompersi. Rappresenta la guarigione immaginale attraverso la sintesi.",
+    crystalShape: "trigonal",
+    imageUrl: "https://images.unsplash.com/photo-1569336415962-a4bd9f69cd83?auto=format&fit=crop&w=600&q=80",
+    tags: ["Alchimia", "Centri di Colore", "Giusto Mezzo", "Trasmutazione"]
   },
   {
     number: 15,
@@ -253,9 +328,14 @@ export const ARCANA_DATA: ArcanoMineral[] = [
     category: "Ossido",
     colorGradient: "from-zinc-800/30 via-neutral-900/20 to-amber-900/5",
     accentColor: "#71717a",
-    scientificBasis: "Il minerale naturalmente più magnetico sulla Terra (ferrimagnetismo naturale). Incarna la forza di gravità incontrollabile, i vincoli materiali tangibili, l'attrazione viscerale e la polarità fisica insuperabile.",
-    opticsPhysical: "Ferrimagnetismo permanente a temperatura ambiente, devia gli aghi della bussola.",
-    tags: ["Ferrimagnetismo", "Attrazione", "Vincolo Materia", "Forza Fisico-Pura"]
+    scientificBasis: "Il minerale naturalmente più magnetico sulla Terra (ferrimagnetismo naturale permanente). Incarna la forza di gravità incontrollabile, i vincoli materiali duraturi, l'attrazione viscerale e il legame fisico.",
+    opticsPhysical: "Ferrimagnetismo permanente dovuto allo sbilanciamento di spin tra gli ioni Fe²⁺ e Fe³⁺ nei siti strutturali.",
+    materiale: "Ossido misto di ferro bivalente e trivalente. Cristallizza nel sistema cubico in splendidi ottaedri neri opachi. Durezza 5.5-6.5. Ha un forte magnetismo naturale in grado di attrarre la limatura di ferro e deviare gli aghi delle bussole.",
+    spirituale: "Rappresenta l'incarnazione più densa della materia, le catene dorate dell'attrazione magnetica terrestre e l'energia sessuale/creativa originaria non canalizzata. È la trappola del materialismo ma anche la chiave per padroneggiare le correnti telluriche.",
+    immaginale: "Il Daimon del Legame Magnetico e del Desiderio. Nella psicologia immaginale rappresenta le passioni viscerali che incatenano l'anima alla terra, ma che costituiscono anche la materia prima indispensabile per l'Opera. È l'attrazione fatale delle immagini.",
+    crystalShape: "cubic",
+    imageUrl: "https://images.unsplash.com/photo-1614362145802-53b708304959?auto=format&fit=crop&w=600&q=80", // fallback metallico
+    tags: ["Ferrimagnetismo", "Catene della Materia", "Ottoredo Nero", "Passione"]
   },
   {
     number: 16,
@@ -269,9 +349,14 @@ export const ARCANA_DATA: ArcanoMineral[] = [
     category: "Vetro d'Impatto",
     colorGradient: "from-amber-300/20 via-red-500/10 to-slate-900/5",
     accentColor: "#f59e0b",
-    scientificBasis: "Si forma istantaneamente quando un fulmine (fino a 30.000 °C) scarica sulla sabbia fondendo la silice in un tubo vetroso cavo. Rappresenta l'evento improvviso imprevedibile, la rottura strutturale immediata e l'energia istantanea dall'alto.",
-    opticsPhysical: "Struttura tubolare cava con pareti interne vetrose lucide ed esterne sabbiose.",
-    tags: ["Scarica Elettrica", "Rottura Improvvisa", "Vetro d'Impatto", "Shock Termico"]
+    scientificBasis: "Si forma all'istante quando un fulmine colpisce il suolo sabbioso, fondendone istantaneamente la silice a temperature superiori ai 1800°C. Rappresenta lo shock distruttivo improvviso e l'energia folgorante.",
+    opticsPhysical: "Struttura tubolare cava amorfa rugosa all'esterno e vetrosa levigata all'interno.",
+    materiale: "Vetro naturale silico-alluminoso amorfo formatosi dall'impatto di un fulmine su sabbie quarzose o rocce silicatiche. Si presenta come tubi rugosi, ramificati e cavi internamente, dovuti all'espansione rapida del vapore acqueo.",
+    spirituale: "Rappresenta la folgore divina che distrugge la torre dell'orgoglio o le false certezze dell'Io. È l'intervento improvviso dello Spirito che spezza i vecchi schemi cristallizzati per costringere l'essere a ricominciare su basi autentiche.",
+    immaginale: "Il Daimon della Folgore e del Crollo. Nella psicologia immaginale è l'archetipo della crisi liberatoria: la distruzione delle corazze difensive che imprigionavano l'Anima. È l'istante cosmico in cui il cielo bacia la terra col fuoco.",
+    crystalShape: "amorphous",
+    imageUrl: "https://images.unsplash.com/photo-1615485290382-441e4d049cb5?auto=format&fit=crop&w=600&q=80", // fallback impact
+    tags: ["Folgore", "Crollo Liberatorio", "Shock Termico", "Tubo di Silice"]
   },
   {
     number: 17,
@@ -282,12 +367,17 @@ export const ARCANA_DATA: ArcanoMineral[] = [
     formula: "Al₂O₃:Ti",
     system: "Trigonale",
     hardness: 9,
-    category: "Ossido",
+    category: "Ossido (Corindone)",
     colorGradient: "from-blue-500/20 via-cyan-600/10 to-indigo-300/5",
     accentColor: "#60a5fa",
-    scientificBasis: "Corindone (durezza 9 Mohs) che presenta il fenomeno dell'asterismo: una stella luminosa a 6 punte formata dalla riflessione della luce su microscopici aghi orientati di rutilo (TiO₂). Simboleggia la guida, il punto di riferimento e la speranza nella notte.",
-    opticsPhysical: "Asterismo ottico a 6 raggi, durezza estrema (secondo solo al diamante).",
-    tags: ["Asterismo", "Aghi di Rutilo", "Punto di Riferimento", "Corindone"]
+    scientificBasis: "Corindone blu che presenta l'asterismo: una stella luminosa a 6 punte dovuta alla riflessione della luce su microscopici aghi orientati di rutilo. Rappresenta la speranza, la fede e la guida celeste.",
+    opticsPhysical: "Asterismo ottico perfetto visibile in luce puntiforme diretta, durezza record (seconda solo al diamante).",
+    materiale: "Ossido di alluminio puro (corindone). Cristallizza nel sistema trigonale. Durezza eccezionale (9 Mohs). Il colore blu è dovuto a tracce di ferro e titanio; la presenza di aghi microscopici di rutilo orientati a 120° genera il fenomeno ottico dell'asterismo.",
+    spirituale: "Rappresenta la guida interiore, la fede incrollabile nel destino spirituale e la luce che brilla nelle tenebre dell'inconscio. È la stella polare dell'Anima che indica la via del ritorno all'Unità cosmica attraverso la speranza attiva.",
+    immaginale: "Il Daimon dell'Asterismo e della Visione Stellare. Simboleggia la capacità immaginale di scorgere un ordine poetico e luminoso (la stella) anche nella materia più densa o nelle notti più buie della psiche. È la poesia cosmica curativa.",
+    crystalShape: "trigonal",
+    imageUrl: "https://images.unsplash.com/photo-1515694346937-94d85e41e6f0?auto=format&fit=crop&w=600&q=80", // fallback blue crystal
+    tags: ["Asterismo", "Speranza Cosmica", "Durezza 9", "Aghi di Rutilo"]
   },
   {
     number: 18,
@@ -301,9 +391,14 @@ export const ARCANA_DATA: ArcanoMineral[] = [
     category: "Solfato",
     colorGradient: "from-slate-200/20 via-indigo-100/10 to-sky-300/5",
     accentColor: "#e2e8f0",
-    scientificBasis: "Varietà di gesso satinato sfaldabile in lamine traslucide, formatasi per evaporazione di bacini acquatici. La sua struttura fibrosa riflette la luce indiretta creando riflessi lattiginosi che rappresentano la percezione dell'inconscio e la mutevolezza.",
-    opticsPhysical: "Bassissima durezza (scalfibile con l'unghia), conduzione ottica a fibra naturale.",
-    tags: ["Riflesso Lattiginoso", "Evaporite", "Mutevolezza", "Inconscio"]
+    scientificBasis: "Varietà di gesso fibroso e lucente, formatasi per evaporazione di antichi bacini salini. Estremamente morbida (durezza 2), conduce e diffonde la luce con un bagliore lattiginoso tipico.",
+    opticsPhysical: "Bassissima durezza Mohs, trasparenza perlacea-satinata con eccezionale diffusione ottica.",
+    materiale: "Solfato di calcio biidrato. Cristallizza nel sistema monoclinico in lamine traslucide o masse fibrose satinatissime. Morbidezza estrema (2 Mohs, si scalfisce con l'unghia). Tipico minerale sedimentario di origine evaporitica.",
+    spirituale: "Rappresenta la recettività pura, il mondo dei sogni, dell'inconscio e delle ombre. La sua estrema delicatezza ricorda che la psiche profonda deve essere trattata con immenso rispetto e cura, evitando le rigidità razionali dogmatiche.",
+    immaginale: "Il Daimon del Sogno e dello Specchio d'Acqua. Nella psicologia immaginale rappresenta il regno lunare del notturno, dell'immaginazione poetica e delle visioni ancestrali. È la luce soffusa che illumina le profondità marine dell'Anima Mundi.",
+    crystalShape: "monoclinic",
+    imageUrl: "https://images.unsplash.com/photo-1551269901-5c5e14c25df7?auto=format&fit=crop&w=600&q=80", // fallback soft
+    tags: ["Luce Lattiginoso", "Regno del Sogno", "Evaporite", "Morbidezza"]
   },
   {
     number: 19,
@@ -317,25 +412,35 @@ export const ARCANA_DATA: ArcanoMineral[] = [
     category: "Silicato",
     colorGradient: "from-amber-400/20 via-yellow-500/10 to-orange-400/5",
     accentColor: "#fbbf24",
-    scientificBasis: "Quarzo ad alta brillantezza cromatico-dorata dovuta a tracce di ferro trivalente in sostituzione tetraedrica. Trasmette calore, elevata trasmittanza luminosa diretta e stabilità termica senza opacità. Incarna la massima chiarezza e radianza.",
-    opticsPhysical: "Elevata trasmittanza nel visibile, assenza di sfaldatura, lucentezza vitrea intensa.",
-    tags: ["Massima Radianza", "Trasmittanza", "Chiarezza", "Energia Solare"]
+    scientificBasis: "Quarzo cromatico dorato, la cui splendida lucentezza solare è dovuta a tracce di ferro trivalente in sostituzione tetraedrica. Incarna la massima chiarezza e radianza.",
+    opticsPhysical: "Elevata trasmittanza ottica nel giallo-arancione, assenza di sfaldatura, lucentezza vitrea intensa e stabile.",
+    materiale: "Biossido di silicio contenente atomi sostitutivi di ferro trivalente in una configurazione di risonanza molecolare che assorbe la luce violetta. Durezza 7. Molto raro in natura in campioni non riscaldati artificialmente.",
+    spirituale: "Rappresenta la Coscienza solare, la gioia di vivere radiosa, la chiarezza dell'intelletto superiore e la fecondità spirituale. È la verità rivelata a mezzogiorno, che scioglie tutte le ombre e riscalda i cuori con la sua generosità cosmica.",
+    immaginale: "Il Daimon della Chiarezza e della Radianza. È l'archetipo dell'Io integrato che risplende di luce propria senza accecare, offrendo calore, verità e abbondanza creativa. Simboleggia il Sole dell'Anima pienamente risvegliato.",
+    crystalShape: "trigonal",
+    imageUrl: "https://images.unsplash.com/photo-1615485290382-441e4d049cb5?auto=format&fit=crop&w=600&q=80", // yellow-gold fallback
+    tags: ["Radianza Solare", "Trasmittanza Gialla", "Coscienza Sveglia", "Chiarezza"]
   },
   {
     number: 20,
     roman: "XX",
     arcanaName: "Il Giudizio",
     mineralName: "Moldavite",
-    subTitle: "Tettite d'Impatto Meteoritico",
-    formula: "Vetro d'Impatto Cosmogenerato",
-    system: "Vetro da Impatto Cosmetico",
+    subTitle: "Tettite d'Impatto Cosmogenerato",
+    formula: "Vetro d'Impatto Cosmetico",
+    system: "Amorfo d'Impatto",
     hardness: 5.5,
     category: "Tettite",
     colorGradient: "from-emerald-700/20 via-lime-900/10 to-teal-950/5",
     accentColor: "#4ade80",
-    scientificBasis: "Nata dalla fusione istantanea e dal lancio ad alta quota di rocce terrestri colpite da un meteorite caduto 15 milioni di anni fa. Simboleggia la chiamata dall'alto, il risveglio extra-terrestre, la sintesi tra cielo e terra e la trasmutazione evolutiva.",
-    opticsPhysical: "Superficie scolpita da aerodinamica di rientro, fluidità vetrosa con bolle di lechatelierite.",
-    tags: ["Origine Meteoritica", "Risveglio", "Sintesi Cielo-Terra", "Tettite"]
+    scientificBasis: "Nata 15 milioni di anni fa dalla fusione istantanea e dal lancio ad alta quota di rocce terrestri colpite da un meteorite. Simboleggia la chiamata dall'alto e la trasmutazione cosmica.",
+    opticsPhysical: "Superficie scolpita dall'attrito aerodinamico di rientro, fluidità vetrosa verde-oliva con bolle microscopiche.",
+    materiale: "Vetro siliceo naturale (tettite) formatosi dall'impatto di un gigantesco meteorite nella Germania meridionale. Durezza 5.5. Presenta una splendida tonalità verde foresta traslucida con scanalature aerodinamiche sulla superficie.",
+    spirituale: "Rappresenta il Risveglio spirituale, la chiamata a trascendere i limiti terrestri per aprirsi alla dimensione cosmica. È l'alleanza sigillata col fuoco tra il Cielo (il meteorite) e la Terra (le rocce fuse), la resurrezione alchemica dell'essere.",
+    immaginale: "Il Daimon del Risveglio Cosmico. Simboleggia lo shock evolutivo che scuote l'Anima dal suo sonno terrestre millenario, ricordandole la sua vera origine stellare. È l'archetipo del salto quantico psichico, la metamorfosi verde.",
+    crystalShape: "amorphous",
+    imageUrl: "https://images.unsplash.com/photo-1599707367072-cd6ada2bc375?auto=format&fit=crop&w=600&q=80", // fallback moldavite
+    tags: ["Origine Meteoritica", "Risveglio Iniziatico", "Tettite Verde", "Salto Quantico"]
   },
   {
     number: 21,
@@ -344,13 +449,18 @@ export const ARCANA_DATA: ArcanoMineral[] = [
     mineralName: "Diamante",
     subTitle: "Carbonio Puro Covalente",
     formula: "C",
-    system: "Cubico Coordinato",
+    system: "Cubico",
     hardness: 10,
     category: "Elemento Nativo",
     colorGradient: "from-cyan-200/20 via-blue-300/10 to-purple-200/5",
     accentColor: "#38bdf8",
-    scientificBasis: "La sostanza naturale più dura conosciuta (10 Mohs), formata da un reticolo tridimensionale perfetto di atomi di carbonio legati da legami covalenti equivalenti. Simboleggia la perfezione geometrica, la massima integrità e il compimento del ciclo.",
-    opticsPhysical: "Massima durezza assoluta, elevatissimo indice di rifrazione (2.42), conducibilità termica record.",
-    tags: ["Reticolo Covalente", "Durezza 10 Mohs", "Perfezione", "Compimento"]
+    scientificBasis: "La sostanza naturale più dura sulla Terra, formata da un reticolo tridimensionale perfetto di carbonio con legami covalenti equivalenti. Simboleggia l'integrità totale e il compimento perfetto del ciclo.",
+    opticsPhysical: "Durezza 10 Mohs assoluta, elevatissimo indice di rifrazione (2.42), conducibilità termica eccezionale.",
+    materiale: "Carbonio elementare puro cristallizzato nel sistema cubico a pressioni estreme del mantello terrestre. Ha durezza massima 10 sulla scala Mohs, sfaldatura ottaedrica perfetta e una dispersione ottica straordinaria (fuoco del diamante).",
+    spirituale: "Rappresenta la realizzazione spirituale suprema, l'integrità incorruttibile, il Sé unificato e l'illuminazione totale. È l'oro filosofale dei saggi, la coscienza atomica pura che ha superato ogni prova e brilla di gloria eterna.",
+    immaginale: "Il Daimon della Perfezione e del Compimento. Nella psicologia immaginale rappresenta l'individuazione compiuta (Jung), lo stato in cui tutte le parti frammentate della psiche sono state integrate in un reticolo di diamante eterno, indistruttibile e luminoso.",
+    crystalShape: "cubic",
+    imageUrl: "https://images.unsplash.com/photo-1605100804763-247f67b3557e?auto=format&fit=crop&w=600&q=80",
+    tags: ["Incorruttibile", "Individuazione", "Carbonio Covalente", "Compimento"]
   }
 ];

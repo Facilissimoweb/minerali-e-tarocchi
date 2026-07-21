@@ -5,8 +5,9 @@ import Explorer from './components/Explorer';
 import DailyDraw from './components/DailyDraw';
 import AffinityTest from './components/AffinityTest';
 import Compare from './components/Compare';
+import { Chat } from './components/Chat';
 import DetailModal from './components/DetailModal';
-import { Gem, Grid, Sparkles, Compass, Columns, Info } from 'lucide-react';
+import { Gem, Grid, Sparkles, Compass, Columns, MessageSquare } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
 
 export default function App() {
@@ -83,6 +84,14 @@ export default function App() {
               <Columns className="w-4 h-4" />
               <span>Confronta</span>
             </button>
+
+            <button 
+              onClick={() => setActiveTab('chat')} 
+              className={`px-4 py-2 rounded-lg text-xs font-semibold flex items-center space-x-2 transition-all cursor-pointer ${activeTab === 'chat' ? 'bg-amber-500/15 text-amber-300 border border-amber-500/20 shadow-sm' : 'text-slate-400 hover:text-slate-200'}`}
+            >
+              <MessageSquare className="w-4 h-4" />
+              <span>Dialogo Daimon</span>
+            </button>
           </nav>
         </div>
       </header>
@@ -121,12 +130,15 @@ export default function App() {
                 onSelectItem={handleSelectItem} 
               />
             )}
+            {activeTab === 'chat' && (
+              <Chat />
+            )}
           </motion.div>
         </AnimatePresence>
       </main>
 
       {/* Mobile Bottom Navigation Bar (Meticulously Mobile-First) */}
-      <nav className="md:hidden fixed bottom-0 left-0 right-0 z-40 bg-[#090d16]/90 backdrop-blur-lg border-t border-slate-900 px-3 py-2 flex items-center justify-around text-[10px] font-semibold">
+      <nav className="md:hidden fixed bottom-0 left-0 right-0 z-40 bg-[#090d16]/95 backdrop-blur-lg border-t border-slate-900/80 px-2 py-2.5 flex items-center justify-around text-[10px] font-semibold shadow-2xl">
         <button 
           onClick={() => setActiveTab('explorer')} 
           className={`flex flex-col items-center gap-1 transition-colors cursor-pointer ${activeTab === 'explorer' ? 'text-amber-400' : 'text-slate-500 hover:text-slate-300'}`}
@@ -157,6 +169,14 @@ export default function App() {
         >
           <Columns className="w-5 h-5" />
           <span>Confronta</span>
+        </button>
+
+        <button 
+          onClick={() => setActiveTab('chat')} 
+          className={`flex flex-col items-center gap-1 transition-colors cursor-pointer ${activeTab === 'chat' ? 'text-amber-400' : 'text-slate-500 hover:text-slate-300'}`}
+        >
+          <MessageSquare className="w-5 h-5" />
+          <span>Daimon</span>
         </button>
       </nav>
 

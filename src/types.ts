@@ -12,10 +12,15 @@ export interface ArcanoMineral {
   accentColor: string;
   scientificBasis: string;
   opticsPhysical: string;
+  materiale: string;      // Fattore Materiale (Chimico-Fisico)
+  spirituale: string;     // Fattore Spirituale (Ideale-Archetipico)
+  immaginale: string;     // Fattore Immaginale (Psico-Immaginale / Anima Mundi)
+  crystalShape: 'trigonal' | 'cubic' | 'monoclinic' | 'hexagonal' | 'amorphous' | 'orthorhombic' | 'octahedral' | 'complex';
+  imageUrl: string;       // Immagine illustrativa di riferimento
   tags: string[];
 }
 
-export type TabId = 'explorer' | 'draw' | 'quiz' | 'compare';
+export type TabId = 'explorer' | 'draw' | 'quiz' | 'compare' | 'chat';
 
 export interface QuizAnswers {
   q1: string;
