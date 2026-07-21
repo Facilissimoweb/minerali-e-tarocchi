@@ -45,28 +45,84 @@ async function callGroqChat(messages: any[], apiKey: string) {
 }
 
 export default async function handler(req: any, res: any) {
-  // Support both express and serverless (which might not pre-parse body in all systems, though Vercel does)
+  console.log("Chat API Handler triggered. Method:", req.method);
+  console.log("Request Content-Type:", req.headers?.["content-type"]);
+
+  // Set CORS Headers to support multi-environment requests (including Vercel/localhost)
+  res.setHeader("Access-Control-Allow-Credentials", "true");
+  res.setHeader("Access-Control-Allow-Origin", "*");
+  res.setHeader("Access-Control-Allow-Methods", "GET,OPTIONS,PATCH,DELETE,POST,PUT");
+  res.setHeader(
+    "Access-Control-Allow-Headers",
+    "X-CSRF-Token, X-Requested-With, Accept, Accept-Version, Content-Length, Content-MD5, Content-Type, Date, X-Api-Version"
+  );
+
+  if (req.method === "OPTIONS") {
+    res.status(200).end();
+    return;
+  }
+
   let body = req.body;
+
+  // If req.body is empty or a readable stream, let's parse it manually to handle some serverless contexts
+  if (!body && (req.readable || req.readableState?.readable)) {
+    try {
+      body = await new Promise((resolve, reject) => {
+        let chunk = "";
+        req.on("data", (data: any) => {
+          chunk += data;
+        });
+        req.on("end", () => {
+          resolve(chunk);
+        });
+        req.on("error", (err: any) => {
+          reject(err);
+        });
+      });
+      console.log("Raw body stream successfully read. Length:", body?.length);
+    } catch (e: any) {
+      console.error("Error reading body stream:", e);
+    }
+  }
+
+  // Handle case where body is a Buffer
+  if (body && typeof body === "object" && body.constructor && body.constructor.name === "Buffer") {
+    body = body.toString("utf-8");
+  }
+
+  // Handle case where body is a string
   if (typeof body === "string") {
     try {
       body = JSON.parse(body);
-    } catch (e) {
-      // Ignored
+    } catch (e: any) {
+      console.warn("Body is string but could not be parsed as JSON:", e.message);
     }
   }
+
+  console.log("Final processed body type:", typeof body);
+  console.log("Final processed body keys:", body && typeof body === "object" ? Object.keys(body) : "none");
 
   try {
     const { message, history } = body || {};
 
     if (!message) {
-      res.status(400).json({ error: "Il messaggio è richiesto." });
+      console.warn("Bad Request: 'message' is missing in the request body.");
+      res.status(400).json({ 
+        error: "Il messaggio è richiesto.",
+        debug: {
+          hasBody: !!body,
+          bodyType: typeof body,
+          bodyKeys: body && typeof body === "object" ? Object.keys(body) : []
+        }
+      });
       return;
     }
 
     const apiKey = process.env.GROQ_API_KEY;
     if (!apiKey) {
+      console.error("Configuration Error: GROQ_API_KEY is not defined.");
       res.status(400).json({ 
-        error: "GROQ_API_KEY non configurata. Per favore inserisci la tua chiave API di Groq nelle impostazioni (Secrets)." 
+        error: "GROQ_API_KEY non configurata su Vercel. Per favore, aggiungi la variabile d'ambiente GROQ_API_KEY nelle impostazioni del tuo progetto su Vercel (Project Settings -> Environment Variables) e ri-effettua il deployment." 
       });
       return;
     }
